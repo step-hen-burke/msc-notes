@@ -4,7 +4,7 @@ authors: "Xiaobai Li"
 year: 2009
 ---
 
-Keywords: #Bayesian #CategoricalData #DataCleaning #Imputation #MissingData
+Keywords: #Bayesian #CategoricalData #DataCleaning #Imputation #MissingData #EDA
 
 The authors use Bayesian methods to impute missing data.
 
