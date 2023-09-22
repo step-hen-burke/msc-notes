@@ -15,6 +15,23 @@
   keywords = {MachineLearning,SupervisedLearning}
 }
 
+@misc{buitinckAPIDesignMachine2013,
+  title = {{{API}} Design for Machine Learning Software: Experiences from the Scikit-Learn Project},
+  shorttitle = {{{API}} Design for Machine Learning Software},
+  author = {Buitinck, Lars and Louppe, Gilles and Blondel, Mathieu and Pedregosa, Fabian and Mueller, Andreas and Grisel, Olivier and Niculae, Vlad and Prettenhofer, Peter and Gramfort, Alexandre and Grobler, Jaques and Layton, Robert and Vanderplas, Jake and Joly, Arnaud and Holt, Brian and Varoquaux, Ga{\"e}l},
+  year = {2013},
+  month = sep,
+  number = {arXiv:1309.0238},
+  eprint = {1309.0238},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-22},
+  abstract = {Scikit-learn is an increasingly popular machine learning li- brary. Written in Python, it is designed to be simple and efficient, accessible to non-experts, and reusable in various contexts. In this paper, we present and discuss our design choices for the application programming interface (API) of the project. In particular, we describe the simple and elegant interface shared by all learning and processing units in the library and then discuss its advantages in terms of composition and reusability. The paper also comments on implementation details specific to the Python ecosystem and analyzes obstacles faced by users and developers of the library.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/6H4539S5/Buitinck et al. - 2013 - API design for machine learning software experien.pdf;/home/stephen/Zotero/storage/QCNF79QH/API design for machine learning software.pdf;/home/stephen/Zotero/storage/GJDK7Q48/1309.html},
+  keywords = {APIDesign,MachineLearning}
+}
+
 @book{burgerIntroductionMachineLearning2018,
   title = {Introduction to Machine Learning with {{R}}: Rigorous Mathematical Analysis},
   shorttitle = {Introduction to Machine Learning with {{R}}},
@@ -29,6 +46,23 @@
   file = {/home/stephen/Zotero/storage/9B2CTQJF/Scott V. Burger - Introduction to Machine Learning with R. Rigorous Mathematical Analysis-O’Reilly (2018).pdf;/home/stephen/Zotero/storage/X2QPID99/Burger - 2018 - Introduction to machine learning with R rigorous .pdf}
 }
 
+@misc{cuiDataSiteProactiveVisual2018,
+  title = {{{DataSite}}: {{Proactive Visual Data Exploration}} with {{Computation}} of {{Insight-based Recommendations}}},
+  shorttitle = {{{DataSite}}},
+  author = {Cui, Zhe and Badam, Sriram Karthik and Yal{\c c}in, Adil and Elmqvist, Niklas},
+  year = {2018},
+  month = sep,
+  number = {arXiv:1802.08621},
+  eprint = {1802.08621},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-22},
+  abstract = {Effective data analysis ideally requires the analyst to have high expertise as well as high knowledge of the data. Even with such familiarity, manually pursuing all potential hypotheses and exploring all possible views is impractical. We present DataSite, a proactive visual analytics system where the burden of selecting and executing appropriate computations is shared by an automatic server-side computation engine. Salient features identified by these automatic background processes are surfaced as notifications in a feed timeline. DataSite effectively turns data analysis into a conversation between analyst and computer, thereby reducing the cognitive load and domain knowledge requirements. We validate the system with a user study comparing it to a recent visualization recommendation system, yielding significant improvement, particularly for complex analyses that existing analytics systems do not support well.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/IP6X7PCH/DataSite  Proactive Visual Data.pdf;/home/stephen/Zotero/storage/L4SIDND9/Cui et al. - 2018 - DataSite Proactive Visual Data Exploration with C.pdf;/home/stephen/Zotero/storage/GFY3TLZD/1802.html},
+  keywords = {AutomatedInsights,DataExploration,Recommendation}
+}
+
 @book{dangetiStatisticsMachineLearning2017,
   title = {Statistics for Machine Learning: Techniques for Exploring Supervised, Unsupervised, and Reinforcement Learning Models with {{Python}} and {{R}}},
   shorttitle = {Statistics for Machine Learning},
@@ -39,6 +73,43 @@
   isbn = {978-1-78829-575-8},
   langid = {english},
   file = {/home/stephen/Zotero/storage/ABA8TNW4/Dangeti - 2017 - Statistics for machine learning techniques for ex.pdf}
+}
+
+@article{deutchExplainEDExplanationsEDA2020,
+  title = {{{ExplainED}}: Explanations for {{EDA}} Notebooks},
+  shorttitle = {{{ExplainED}}},
+  author = {Deutch, Daniel and Gilad, Amir and Milo, Tova and Somech, Amit},
+  year = {2020},
+  month = aug,
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {13},
+  number = {12},
+  pages = {2917--2920},
+  issn = {2150-8097},
+  doi = {10.14778/3415478.3415508},
+  urldate = {2023-09-22},
+  abstract = {Exploratory Data Analysis (EDA) is an essential yet highly demanding task. To get a head start before exploring a new dataset, data scientists often prefer to view existing               EDA notebooks               - illustrative exploratory sessions that were created by fellow data scientists who examined the same dataset and shared their notebooks via online platforms. Unfortunately, creating an illustrative, well-documented notebook is cumbersome and time-consuming, therefore users sometimes share their notebook without explaining their exploratory steps and their results. Such notebooks are difficult to follow and to understand.                          To address this, we present ExplainED, a system that automatically attaches explanations to views in EDA notebooks. ExplainED analyzes each view in order to detect what elements thereof are particularly interesting, and produces a corresponding textual explanation. The explanations are generated by first evaluating the interestingness of the given view using several measures capturing different interestingness facets, then computing the Shapely values of the elements in the view, w.r.t. the interestingness measure yielding the highest score. These Shapely values are then used to guide the generation of the textual explanation.             We demonstrate the usefulness of the explanations generated by ExplainED on real-life, undocumented EDA notebooks.},
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/T4K936ED/Deutch et al. - 2020 - ExplainED explanations for EDA notebooks.pdf},
+  keywords = {EDA}
+}
+
+@inproceedings{dingQuickInsightsQuickAutomatic2019,
+  title = {{{QuickInsights}}: {{Quick}} and {{Automatic Discovery}} of {{Insights}} from {{Multi-Dimensional Data}}},
+  shorttitle = {{{QuickInsights}}},
+  booktitle = {Proceedings of the 2019 {{International Conference}} on {{Management}} of {{Data}}},
+  author = {Ding, Rui and Han, Shi and Xu, Yong and Zhang, Haidong and Zhang, Dongmei},
+  year = {2019},
+  month = jun,
+  pages = {317--332},
+  publisher = {{ACM}},
+  address = {{Amsterdam Netherlands}},
+  doi = {10.1145/3299869.3314037},
+  urldate = {2023-09-22},
+  isbn = {978-1-4503-5643-5},
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/XKUH44Z2/Ding et al. - 2019 - QuickInsights Quick and Automatic Discovery of In.pdf},
+  keywords = {AutomatedInsights}
 }
 
 @book{downeyThinkStats2012,
@@ -123,6 +194,24 @@
   keywords = {Bayesian,CategoricalData,DataCleaning,Imputation,MissingData}
 }
 
+@inproceedings{linBigIN4InstantInteractive2018,
+  title = {{{BigIN4}}: {{Instant}}, {{Interactive Insight Identification}} for {{Multi-Dimensional Big Data}}},
+  shorttitle = {{{BigIN4}}},
+  booktitle = {Proceedings of the 24th {{ACM SIGKDD International Conference}} on {{Knowledge Discovery}} \& {{Data Mining}}},
+  author = {Lin, Qingwei and Ke, Weichen and Lou, Jian-Guang and Zhang, Hongyu and Sui, Kaixin and Xu, Yong and Zhou, Ziyi and Qiao, Bo and Zhang, Dongmei},
+  year = {2018},
+  month = jul,
+  pages = {547--555},
+  publisher = {{ACM}},
+  address = {{London United Kingdom}},
+  doi = {10.1145/3219819.3219867},
+  urldate = {2023-09-22},
+  isbn = {978-1-4503-5552-0},
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/VLQLTFXM/Lin et al. - 2018 - BigIN4 Instant, Interactive Insight Identificatio.pdf},
+  keywords = {AutomatedInsights}
+}
+
 @book{mullerIntroductionMachineLearning2016,
   title = {Introduction to Machine Learning with {{Python}}: A Guide for Data Scientists},
   shorttitle = {Introduction to Machine Learning with {{Python}}},
@@ -152,6 +241,23 @@
   langid = {english},
   file = {/home/stephen/Zotero/storage/KACA343Q/DataPrepEDA Task Centric Exploratory Data Analysis for Statistical Modeling in Python.pdf},
   keywords = {BigData,DistributedData,EDA,Profiling,Python}
+}
+
+@inproceedings{tangExtractingTopKInsights2017,
+  title = {Extracting {{Top-K Insights}} from {{Multi-dimensional Data}}},
+  booktitle = {Proceedings of the 2017 {{ACM International Conference}} on {{Management}} of {{Data}}},
+  author = {Tang, Bo and Han, Shi and Yiu, Man Lung and Ding, Rui and Zhang, Dongmei},
+  year = {2017},
+  month = may,
+  pages = {1509--1524},
+  publisher = {{ACM}},
+  address = {{Chicago Illinois USA}},
+  doi = {10.1145/3035918.3035922},
+  urldate = {2023-09-22},
+  isbn = {978-1-4503-4197-4},
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/4RFQG6T7/Tang et al. - 2017 - Extracting Top-K Insights from Multi-dimensional D.pdf},
+  keywords = {AutomatedInsights}
 }
 
 @book{thakurApproachingAlmostAny2020,
@@ -194,6 +300,23 @@
   langid = {english},
   file = {/home/stephen/Zotero/storage/57VBYQYU/Yang and Chiang - 2020 - Use Case and Performance Analyses for Missing Data.pdf},
   keywords = {Imputation,MissingData}
+}
+
+@inproceedings{yanTesseraDiscretizingData2021,
+  title = {Tessera: {{Discretizing Data Analysis Workflows}} on a {{Task Level}}},
+  shorttitle = {Tessera},
+  booktitle = {Proceedings of the 2021 {{CHI Conference}} on {{Human Factors}} in {{Computing Systems}}},
+  author = {Yan, Jing Nathan and Gu, Ziwei and Rzeszotarski, Jeffrey M},
+  year = {2021},
+  month = may,
+  pages = {1--15},
+  publisher = {{ACM}},
+  address = {{Yokohama Japan}},
+  doi = {10.1145/3411764.3445728},
+  urldate = {2023-09-22},
+  isbn = {978-1-4503-8096-6},
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/GLSVDPPB/Yan et al. - 2021 - Tessera Discretizing Data Analysis Workflows on a.pdf}
 }
 
 @book{zakiDataMiningMachine2020,
