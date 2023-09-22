@@ -4,6 +4,8 @@ authors: Ioannis Koumarelas, Lan Jiang, Felix Naumann
 year: 2020
 ---
 
+Keywords: #DataCleaning #EDA
+
 The authors outline a way to chain many candidate data transforms together, then iteratively remove them where there's no change or an improvement in AUC-PR - minimizing the set of transformations.
 
 They're mostly focused on duplicate detection, but the problems they describe about ad-hoc data treatment apply more broadly.

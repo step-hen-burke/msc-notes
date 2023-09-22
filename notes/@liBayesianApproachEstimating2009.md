@@ -1,8 +1,10 @@
 ---
-title: A Bayesian Approach for Estimating and Replacing Missing Categorical Data
-authors: Xiaobai Li
+title: "A Bayesian Approach for Estimating and Replacing Missing Categorical Data"
+authors: "Xiaobai Li"
 year: 2009
 ---
+
+Keywords: #Bayesian #CategoricalData #DataCleaning #Imputation #MissingData
 
 The authors use Bayesian methods to impute missing data.
 
