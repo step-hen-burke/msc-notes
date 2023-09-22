@@ -12,5 +12,5 @@ In their datasets, doing all transformations carelessly sometimes gave worse res
 
 _This could possibly be used in conjunction with an orchestration framework like Airflow to prune an execution DAG prior to deployment. Or more simply, editing a sklearn pipeline_
 
-![](@koumarelasDataPreparationDuplicate2020%202023-09-22%2010.31.26.excalidraw.png)
+![](drawings/@koumarelasDataPreparationDuplicate2020%202023-09-22%2010.31.26.excalidraw.png)
 %%[🖋 Edit in Excalidraw](@koumarelasDataPreparationDuplicate2020%202023-09-22%2010.31.26.excalidraw.md), and the [dark exported image](@koumarelasDataPreparationDuplicate2020%202023-09-22%2010.31.26.excalidraw.dark.png)%%
