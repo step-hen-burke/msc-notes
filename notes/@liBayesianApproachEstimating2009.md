@@ -7,7 +7,7 @@ year: 2009
 The authors use Bayesian methods to impute missing data.
 
 Only works on categorical data - numeric data must use other methods or coerce the 
-variable to a category - eg. with range splits
+variable to a category - e.g. with range splits
 
 Assumes variables are independent to ease calculation. 
 
