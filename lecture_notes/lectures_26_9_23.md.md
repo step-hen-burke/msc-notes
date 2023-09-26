@@ -44,4 +44,11 @@ Imputation:
 - Business needs and needs of the data problem might be contrary - decisions made from the business PoV can introduce bias
 - The business problem is secondary to exploring and understanding the data
 
--Duplicate detection
+#### Discussion on Assignments
+- Assignments are primarily evaluated on the justification & intention behind decisions made
+- Need to reference in the literature why things are correct and when they've been done before, choice through experimentation may not be sufficient
+- Due around week 6/7 - will have about a month to do it - integrated through all 4 modules
+- On Saturday classes: David himself doesn't plan on giving us Saturday classes unless there's a good reason for it
+
+- _Focus on capturing the justification for applying EDA techniques when reading_
+
