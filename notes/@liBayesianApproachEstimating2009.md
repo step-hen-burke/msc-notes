@@ -6,7 +6,7 @@ year: 2009
 
 Keywords: #Bayesian #CategoricalData #DataCleaning #Imputation #MissingData #EDA
 
-The authors use [[Bayes|Bayesian]] methods to impute missing data.
+The authors use Bayesian methods to impute missing data.
 
 Only works on categorical data - numeric data must use other methods or coerce the 
 variable to a category - e.g. with range splits
