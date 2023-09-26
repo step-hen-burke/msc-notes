@@ -1,0 +1,10 @@
+- [x] Set up Obsidian ✅ 2023-09-20
+- [x] Set up Zotero ✅ 2023-09-20
+- [x] Populate bibliography ✅ 2023-09-20
+- [x] Set up git for notes ✅ 2023-09-21
+- [x] Set up git for lecture material ✅ 2023-09-21
+- [x] Read Data Visualisation Articles ✅ 2023-09-22
+- [x] Read Machine Learning Article ✅ 2023-09-23
+- [x] Start reading Introductory Statistics ✅ 2023-09-25
+- [x] Statistics Activity book ✅ 2023-09-25
+- [x] Read python introduction chapters 1-2 ✅ 2023-09-22
