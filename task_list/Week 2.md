@@ -3,3 +3,7 @@
 - [ ] Research questions arising from [[26_9_23.md | this week's lecture]]
 - [ ] Read Efficient kNN classification algorithm for big data
 - [ ] Read Decision Tree CART Example
+- [ ] Tutorial 2 
+	- [ ] Task 1
+	- [ ] Task 2
+ 
