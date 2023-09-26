@@ -33,3 +33,14 @@ _fit_transform() vs transform()_ - fit_transform fits its parameters to the skle
 - [ ] How does the decision tree choose its splits / rules - trying many in order to maximise gain?
 
 # Data Visualisation
+
+Keywords: #EDA #Imputation
+
+_Data is fact gathered within a specific context_
+
+Imputation:
+- Imputation & removal always needs to be justified. 
+- Outliers shouldn't be dropped without justification, they're always useful.
+- Business needs and needs of the data problem might be contrary - decisions made from the business PoV can introduce bias
+
+- Problem is secondary to exploring and understanding the data

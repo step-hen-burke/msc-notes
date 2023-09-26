@@ -4,7 +4,12 @@
 - [x] Set up git for notes ✅ 2023-09-21
 - [x] Set up git for lecture material ✅ 2023-09-21
 - [x] Read Data Visualisation Articles ✅ 2023-09-22
+	- [x] [[@liBayesianApproachEstimating2009]] ✅ 2023-09-26
+	- [x] [[@pengDataPrepEDATaskCentric2021]] ✅ 2023-09-26
+	- [x] [[@yangUseCasePerformance2020]] ✅ 2023-09-26
+	- [x] [[@koumarelasDataPreparationDuplicate2020]] ✅ 2023-09-26
 - [x] Read Machine Learning Article ✅ 2023-09-23
+	- [x] [[@aliHeartDiseasePrediction2021]] ✅ 2023-09-26
 - [x] Start reading Introductory Statistics ✅ 2023-09-25
 - [x] Statistics Activity book ✅ 2023-09-25
 - [x] Read python introduction chapters 1-2 ✅ 2023-09-22

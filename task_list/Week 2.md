@@ -1,9 +1,17 @@
 ## Machine Learning
 - [ ] Read Underfitting & Overfitting doc
-- [ ] Research questions arising from [[26_9_23.md | this week's lecture]]
-- [ ] Read Efficient kNN classification algorithm for big data
+- [ ] Research questions arising from [[lectures_26_9_23.md| this week's lecture]]
+- [ ] Read Efficient kNN classification algorithm for big data [[@dengEfficientKNNClassification2016]]
 - [ ] Read Decision Tree CART Example
 - [ ] Tutorial 2 
 	- [ ] Task 1
 	- [ ] Task 2
+
+
+## Data Visualisation
+- [ ] Read papers
+	- [ ] [[@abukmeilSurveyUnsupervisedGenerative2022]]
+	- [ ] [[@Bertsimas2017FromPM]]
+	- [ ] [[@chuQualitativeDataCleaning2016]]
+	- [ ] [[@chiangInfoCleanProtectingSensitive2017]]
  
