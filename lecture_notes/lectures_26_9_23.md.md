@@ -42,5 +42,6 @@ Imputation:
 - Imputation & removal always needs to be justified. 
 - Outliers shouldn't be dropped without justification, they're always useful.
 - Business needs and needs of the data problem might be contrary - decisions made from the business PoV can introduce bias
+- The business problem is secondary to exploring and understanding the data
 
-- Problem is secondary to exploring and understanding the data
+-Duplicate detection
