@@ -1,3 +1,4 @@
+- [x] Setup phone sync for Obsidian markdown
 ## Machine Learning
 - [ ] Read Underfitting & Overfitting doc
 - [ ] Research questions arising from [[lectures_26_9_23| this week's lecture]]
