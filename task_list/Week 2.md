@@ -5,7 +5,7 @@
 - [ ] Read Efficient kNN classification algorithm for big data [[@dengEfficientKNNClassification2016]]
 - [ ] Read Decision Tree CART Example
 - [ ] Tutorial 2 
-	- [ ] Task 1
+	- [x] Task 1 ✅ 2023-09-27
 	- [ ] Task 2
 
 
