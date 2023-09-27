@@ -92,6 +92,23 @@
   file = {/home/stephen/Zotero/storage/H3I4K7ZC/Chiang and Gairola - 2017 - InfoClean Protecting Sensitive Information in Dat.pdf}
 }
 
+@article{chuDistributedDataDeduplication2016,
+  title = {Distributed Data Deduplication},
+  author = {Chu, Xu and Ilyas, Ihab F. and Koutris, Paraschos},
+  year = {2016},
+  month = jul,
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {9},
+  number = {11},
+  pages = {864--875},
+  issn = {2150-8097},
+  doi = {10.14778/2983200.2983203},
+  urldate = {2023-09-27},
+  abstract = {Data deduplication refers to the process of identifying tuples in a relation that refer to the same real world entity. The complexity of the problem is inherently quadratic with respect to the number of tuples, since a similarity value must be computed for every pair of tuples. To avoid comparing tuple pairs that are obviously non-duplicates, blocking techniques are used to divide the tuples into blocks and only tuples within the same block are compared. However, even with the use of blocking, data deduplication remains a costly problem for large datasets. In this paper, we show how to further speed up data deduplication by leveraging parallelism in a shared-nothing computing environment. Our main contribution is a distribution strategy, called Dis-Dedup, that minimizes the maximum workload across all worker nodes and provides strong theoretical guarantees. We demonstrate the effectiveness of our proposed strategy by performing extensive experiments on both synthetic datasets with varying block size distributions, as well as real world datasets.},
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/22QX8R32/Chu et al. - 2016 - Distributed data deduplication.pdf}
+}
+
 @article{chuQualitativeDataCleaning2016,
   title = {Qualitative Data Cleaning},
   author = {Chu, Xu and Ilyas, Ihab F.},
@@ -401,6 +418,23 @@
   isbn = {978-1-292-09972-9},
   langid = {english},
   file = {/home/stephen/Zotero/storage/XF5DEB94/Weiss - 2017 - Introductory statistics.pdf}
+}
+
+@article{yakoutGuidedDataRepair2011,
+  title = {Guided Data Repair},
+  author = {Yakout, Mohamed and Elmagarmid, Ahmed K. and Neville, Jennifer and Ouzzani, Mourad and Ilyas, Ihab F.},
+  year = {2011},
+  month = feb,
+  journal = {Proceedings of the VLDB Endowment},
+  volume = {4},
+  number = {5},
+  pages = {279--289},
+  issn = {2150-8097},
+  doi = {10.14778/1952376.1952378},
+  urldate = {2023-09-27},
+  abstract = {In this paper we present GDR, a Guided Data Repair framework that incorporates user feedback in the cleaning process to enhance and accelerate existing automatic repair techniques while minimizing user involvement. GDR consults the user on the updates that are most likely to be beneficial in improving data quality. GDR also uses machine learning methods to identify and apply the correct updates directly to the database without the actual involvement of the user on these specific updates. To rank potential updates for consultation by the user, we first group these repairs and quantify the utility of each group using the decision-theory concept of value of information (VOI). We then apply active learning to order updates within a group based on their ability to improve the learned model. User feedback is used to repair the database and to adaptively refine the training set for the model. We empirically evaluate GDR on a real-world dataset and show significant improvement in data quality using our user guided repairing process. We also, assess the trade-off between the user efforts and the resulting data quality.},
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/RUH7C79W/Yakout et al. - 2011 - Guided data repair.pdf}
 }
 
 @inproceedings{yangUseCasePerformance2020,
