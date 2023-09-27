@@ -20,5 +20,5 @@ Two phases: Error detection & Error Repairing
 Current techniques can fall down at scale - I imagine things like various deduplication algorithms don't really work well when you have data split across a cluster and you can't do sorts etc. 
 
 ### Further Reading
-- [[@chuDistributedDataDeduplication2016 - Distributed data deduplication]]
-- [[@yakoutGuidedDataRepair2011 - Guided data repair]]
+- [[@chuDistributedDataDeduplication2016]]
+- [[@yakoutGuidedDataRepair2011]]

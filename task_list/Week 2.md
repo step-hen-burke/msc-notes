@@ -12,6 +12,6 @@
 - [ ] Read papers
 	- [ ] [[@abukmeilSurveyUnsupervisedGenerative2022]]
 	- [ ] [[@Bertsimas2017FromPM]]
-	- [ ] [[@chuQualitativeDataCleaning2016]]
+	- [x] [[@chuQualitativeDataCleaning2016]] ✅ 2023-09-27
 	- [ ] [[@chiangInfoCleanProtectingSensitive2017]]
  
