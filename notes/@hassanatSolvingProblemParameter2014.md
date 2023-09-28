@@ -4,7 +4,7 @@ authors: "Ahmad Basheer Hassanat, Mohammad Ali Abbadi, Ghada Awad Altarawneh, Ah
 year: 2014
 ---
 
-Keywords: #FOS:ComputerAndInformationSciences #MachineLearning(Cs.LG) 
+Keywords:  #MachineLearning 
 
 ### Notes
 

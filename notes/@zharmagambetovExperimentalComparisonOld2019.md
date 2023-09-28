@@ -4,7 +4,7 @@ authors: "Arman Zharmagambetov, Suryabhan Singh Hada, Miguel √Å. Carreira-Perpi√
 year: 2019
 ---
 
-Keywords: #FOS:ComputerAndInformationSciences #MachineLearning(Cs.LG) #MachineLearning(Stat.ML) 
+Keywords: #MachineLearning 
 
 ### Notes
 

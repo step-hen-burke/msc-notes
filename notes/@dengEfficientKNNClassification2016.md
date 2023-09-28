@@ -4,4 +4,4 @@ authors: "Zhenyun Deng, Xiaoshu Zhu, Debo Cheng, Ming Zong, Shichao Zhang"
 year: 2016
 ---
 
-Keywords: 
+Keywords: #KNN
