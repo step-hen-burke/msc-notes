@@ -1,9 +1,10 @@
 - [x] Setup phone sync for Obsidian markdown
 ## Machine Learning
-- [ ] Read Underfitting & Overfitting doc
-- [ ] Research questions arising from [[lectures_26_9_23| this week's lecture]]
+- [x] Read Underfitting & Overfitting doc ✅ 2023-09-28
+- [x] Research questions arising from [[lectures_26_9_23| this week's lecture]] ✅ 2023-09-28
 - [ ] Read Efficient kNN classification algorithm for big data [[@dengEfficientKNNClassification2016]]
-- [ ] Read Decision Tree CART Example
+- [x] Read Decision Tree CART Example ✅ 2023-09-28
+- [ ] Read decision tree book chapter
 - [x] Tutorial 2 ✅ 2023-09-27
 	- [x] Task 1 ✅ 2023-09-27
 	- [x] Task 2 ✅ 2023-09-27

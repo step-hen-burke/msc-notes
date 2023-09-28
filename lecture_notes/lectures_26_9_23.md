@@ -4,33 +4,51 @@ Keywords: #MachineLearning #SupervisedLearning #DecisionTrees #GINI #DataNormali
 ## Finishing off Tutorial 1
 
 How to choose the optimal value of KNN - is there a formal method? Something like AIC that penalises higher values of K but also takes train & test accuracy into account?
-- [ ] Find a paper on numerical strategies for choosing optimal values of N in KNN
+- [x] Find a paper on numerical strategies for choosing optimal values of N in KNN ✅ 2023-09-28
+[[@hassanatSolvingProblemParameter2014]]
 
 sklearn.classification_report  definitions - f score, weighted avg, macro avg etc.
-- [ ] Read documentation on sklearn.classification_report
+- [x] Read documentation on sklearn.classification_report ✅ 2023-09-28
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
+Docs for sklearn.precision_recall_fscore_support gives an explanation of the terms https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html#sklearn.metrics.precision_recall_fscore_support
+Macro + micro avg explanation:
+https://datascience.stackexchange.com/questions/15989/micro-average-vs-macro-average-performance-in-a-multiclass-classification-settin
 
 Why normalize / standardize data? Why isn't it done with iris?
-- [ ] Read up on reasons why normalizing data is performed
+- [x] Read up on reasons why normalizing data is performed ✅ 2023-09-28
+https://towardsai.net/p/data-science/how-when-and-why-should-you-normalize-standardize-rescale-your-data-3f083def38ff
+https://developers.google.com/machine-learning/data-prep/transform/normalization
 
-Why was petal width removed in Tutorial 1? Apparently due to analysis of the heatmap but I'm unsure why exactly
+Why was petal width removed in Tutorial 1? Apparently due to analysis of the heatmap but I'm unsure why exactly - we see later that it has low feature importance using RF
 
 ## RF & Decision Trees
 
 Review Decision Tree growth algorithm differences - Hunt's, CART, etc.
-- [ ] Find a paper comparing difference Decision Tree algorithms
+- [x] Find a paper comparing difference Decision Tree algorithms ✅ 2023-09-28
+[[@zharmagambetovExperimentalComparisonOld2019]]
 
 Categorical splitting justification - gini impurity, entropy etc.
 - GINI index is an impurity calculation - for each node in a split you get a measure based on the probability of seeing each class in the split nodes. If the weighted gini between child nodes is greater than the parent node's gini, you have positive gain, so a split is justified.
 
 - Entropy is an alternative split criterion 
-- [ ]  What are the differences between GINI and Entropy?
+- [x] What are the differences between GINI and Entropy? ✅ 2023-09-28
+https://www.geeksforgeeks.org/gini-impurity-and-entropy-in-decision-tree-ml/
+https://datascience.stackexchange.com/questions/10228/when-should-i-use-gini-impurity-as-opposed-to-information-gain-entropy
 
 - Error is not typically used because of linear behaviour - sharp inflection / gradual slope to the maximum gives small differences where the model should be unsure?
-- [ ] Why is GINI / Entropy preferred to Error?
+- [x] Why is GINI / Entropy preferred to Error? ✅ 2023-09-28
+https://stats.stackexchange.com/questions/140858/when-is-classification-error-rate-preferable-when-pruning-decision-trees
+https://sebastianraschka.com/faq/docs/decisiontree-error-vs-entropy.html
 
 _fit_transform() vs transform()_ - fit_transform fits its parameters to the sklearn object, then transforms the input. transform uses an already fitted transformer, so test data should only be transformed by transform, not fit_transform - https://stackoverflow.com/questions/59101623/how-to-use-fit-and-transform-for-training-and-testing-data-with-standardscaler
 
-- [ ] How does the decision tree choose its splits / rules - trying many in order to maximise gain?
+- [x] How does the decision tree choose its splits / rules - trying many in order to maximise gain? ✅ 2023-09-28
+Multiple possiblilities for categorical target - gain, gini, chi-sq
+Continuous target -> reduction in variance
+https://www.analyticsvidhya.com/blog/2020/06/4-ways-split-decision-tree/
+
+Choosing a continuous split -> sort the values and evaluate the midpoints between values for gain/gini/whatever
+https://datascience.stackexchange.com/questions/24339/how-is-a-splitting-point-chosen-for-continuous-variables-in-decision-trees
 
 # Data Visualisation
 
