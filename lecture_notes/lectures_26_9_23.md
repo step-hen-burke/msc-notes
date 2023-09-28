@@ -38,6 +38,8 @@ https://datascience.stackexchange.com/questions/10228/when-should-i-use-gini-imp
 - Error is not typically used because of linear behaviour - sharp inflection / gradual slope to the maximum gives small differences where the model should be unsure?
 - [x] Why is GINI / Entropy preferred to Error? ✅ 2023-09-28
 https://stats.stackexchange.com/questions/140858/when-is-classification-error-rate-preferable-when-pruning-decision-trees
+
+Entropy and GINI change in smaller degrees, so in some cases they can split with a small gain where the error gain would be 0, and it'd stop splitting prematurely.
 https://sebastianraschka.com/faq/docs/decisiontree-error-vs-entropy.html
 
 _fit_transform() vs transform()_ - fit_transform fits its parameters to the sklearn object, then transforms the input. transform uses an already fitted transformer, so test data should only be transformed by transform, not fit_transform - https://stackoverflow.com/questions/59101623/how-to-use-fit-and-transform-for-training-and-testing-data-with-standardscaler
