@@ -12,7 +12,7 @@
 
 ## Data Visualisation
 - [ ] Read papers
-	- [ ] [[@abukmeilSurveyUnsupervisedGenerative2022]]
+	- [x] [[@abukmeilSurveyUnsupervisedGenerative2022]] ✅ 2023-10-02
 	- [ ] [[@Bertsimas2017FromPM]]
 	- [x] [[@chuQualitativeDataCleaning2016]] ✅ 2023-09-27
 	- [ ] [[@chiangInfoCleanProtectingSensitive2017]]
