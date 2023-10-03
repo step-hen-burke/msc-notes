@@ -11,9 +11,9 @@
 
 
 ## Data Visualisation
-- [ ] Read papers
+- [x] Read papers ✅ 2023-10-03
 	- [x] [[@abukmeilSurveyUnsupervisedGenerative2022]] ✅ 2023-10-02
-	- [ ] [[@Bertsimas2017FromPM]]
+	- [x] [[@Bertsimas2017FromPM]] ✅ 2023-10-03
 	- [x] [[@chuQualitativeDataCleaning2016]] ✅ 2023-09-27
 	- [x] [[@chiangInfoCleanProtectingSensitive2017]] ✅ 2023-10-02
  
