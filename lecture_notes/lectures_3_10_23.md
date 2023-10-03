@@ -8,4 +8,6 @@ https://stats.stackexchange.com/questions/9053/how-does-cross-validation-overcom
 ### Regression
 
 - [ ] Look into R$^{2}$ interpretations for over vs underfitting
+"The proportion of the variation in the dependent variable that is predictable from the independent variable(s)"
 
+$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$ where $SS_{res}$ is residual sum of squares $\sum\limits_{i}e_{i}^2$, and $SS_{tot}$ is the total sum of squares $\sum\limits_{i}(y_{i}-\bar{y})^2$
