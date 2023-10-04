@@ -46,4 +46,3 @@ Some situations where we need to impute, but we need to be very clear about when
 
 If we have a feature that fits very closely to a distribution, mean/median imputation might be appropriate depending
 
-
