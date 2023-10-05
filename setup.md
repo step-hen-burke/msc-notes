@@ -8,3 +8,8 @@ https://github.com/hans/obsidian-citation-plugin/issues/61#issuecomment-10567119
 
 https://github.com/hans/obsidian-citation-plugin/issues/61#issuecomment-1373567531
 
+
+Setting up a new repo to use cct ssh key
+```
+git config core.sshCommand "ssh -i ~/.ssh/id_cct -F /dev/null"
+```
