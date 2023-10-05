@@ -28,3 +28,7 @@
 > This will require you to employ critical analysis of not only the domain of choice but also for the regression and or classification that you undertake.
 > 
 > **Note: This is an academic exercise and not a hypothetical report to the CSO.**
+
+
+### Statistics
+- [ ] Do exercises on moodle
