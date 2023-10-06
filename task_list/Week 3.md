@@ -7,6 +7,7 @@
 - [ ] Look into questions arising from [[lectures_3_10_23 | this week's lecture]]
 - [ ] Read data analytics papers researching population
 	- [ ] Find interesting datasets on CSO to have an idea of what's possible
+ - [x] Set up CA Git ✅ 2023-10-06
 
 #### CA Overview 
 > A large amount of data has been collected by The Central Statistics Office in Ireland in relation to the population of Ireland, This data is available at:[](https://data.gov.ie/organization/dublin-city-council?tags=Transport+and+Infrastructure)
