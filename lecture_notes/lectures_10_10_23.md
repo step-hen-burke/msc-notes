@@ -14,3 +14,5 @@ Boring / over-complicated visualisations - leads to confusion for stakeholders
 - [ ] Justify _everything_ about why plots are chosen & link it back to Tufte - can never be to detailed - back up choices with literature
 
 - [ ] Justify use of gendered colour - Human Computer Interaction - field of study
+ 
+Kaggle data can not be used for the CA

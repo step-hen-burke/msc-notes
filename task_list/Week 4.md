@@ -3,3 +3,5 @@
 - [ ] Read research papers
 
 ## Data Visualisation
+- [ ] Visualisation exercise
+
