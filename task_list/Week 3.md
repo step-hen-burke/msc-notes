@@ -1,12 +1,12 @@
 ## Machine Learning
-- [ ] Look into questions arising from [[lectures_3_10_23 | this week's lecture]]
-- [ ] Finish reading lecture notes
+- [x] Look into questions arising from [[lectures_3_10_23 | this week's lecture]] ✅ 2023-10-10
+- [x] Finish reading lecture notes ✅ 2023-10-10
 - [ ] Read lasso regression doc https://courses.cs.washington.edu/courses/cse446/17wi/slides/lasso.pdf
 
 ### CA
 - [ ] Look into questions arising from [[lectures_3_10_23 | this week's lecture]]
 - [ ] Read data analytics papers researching population
-	- [ ] Find interesting datasets on CSO to have an idea of what's possible
+	- [x] Find interesting datasets on CSO to have an idea of what's possible ✅ 2023-10-10
  - [x] Set up CA Git ✅ 2023-10-06
 
 #### CA Overview 

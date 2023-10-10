@@ -7,7 +7,7 @@ https://stats.stackexchange.com/questions/9053/how-does-cross-validation-overcom
 
 ### Regression
 
-- [ ] Look into R$^{2}$ interpretations for over vs underfitting
+- [x] Look into R$^{2}$ interpretations for over vs underfitting ✅ 2023-10-10
 "The proportion of the variation in the dependent variable that is predictable from the independent variable(s)"
 
 $R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$ where $SS_{res}$ is residual sum of squares $\sum\limits_{i}e_{i}^2$, and $SS_{tot}$ is the total sum of squares $\sum\limits_{i}(y_{i}-\bar{y})^2$
@@ -26,7 +26,7 @@ $R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$ where $SS_{res}$ is residual sum of square
 	- rely on data from CSO and any additional data
 	- identify issues/problem's at present and make predictions / classifications into the future
 	- Must be about the population - keep it relevant
-- [ ] Look at Tuft's principles of data prep and visualization
+- [x] Look at Tuft's principles of data prep and visualization ✅ 2023-10-10
 -  Need to discuss use of programming paradigms
 - Jupyter notebook needs to have markdown comment cells
 - Follow KDD / CRISP-DM / Some paradigm and structure the report that way
