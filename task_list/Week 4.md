@@ -3,5 +3,5 @@
 - [ ] Read research papers
 
 ## Data Visualisation
-- [ ] Visualisation exercise
+- [x] Visualisation exercise ✅ 2023-10-14
 

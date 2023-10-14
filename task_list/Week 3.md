@@ -32,4 +32,4 @@
 
 
 ### Statistics
-- [ ] Do exercises on moodle
+- [x] Do exercises on moodle ✅ 2023-10-14
