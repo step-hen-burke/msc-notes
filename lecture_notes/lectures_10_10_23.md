@@ -15,4 +15,4 @@ Boring / over-complicated visualisations - leads to confusion for stakeholders
 
 - [ ] Justify use of gendered colour - Human Computer Interaction - field of study
  
-Kaggle data can not be used for the CA
+Kaggle data can not be used for the CA - it's unverifiable
