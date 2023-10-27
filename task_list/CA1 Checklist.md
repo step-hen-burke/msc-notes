@@ -1,0 +1,17 @@
+- [ ] Use binomial distribution
+	- Number of years with positive migration per decade
+- [ ] Use poisson distribution 
+	- Number of people in each age bracket
+- [ ] Use linear regression 
+	- Population at future dates using lags of other variables
+	- Compare lasso, ridge, elasticnet 
+	- Compare to ARIMA
+- [ ] Import and clean town data
+	- Probably could get away with two data points - allows for growth feature and demonstrating cleaning
+	 - Extract county / townland feature from names -  demonstrates relatively involved data cleaning 
+	  - Look at sizes of towns - are they lognormal? Can we extract a town_size variable?
+- [ ] Use KNN 
+	- Group towns together
+	- Compare with naive bayes
+- [ ] Write Word Doc report
+	- What's my angle? 
