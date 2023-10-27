@@ -6,6 +6,7 @@
 	- Population at future dates using lags of other variables
 	- Compare lasso, ridge, elasticnet 
 	- Compare to ARIMA
+	- Refer to CRISP-DM
 - [ ] Import and clean town data
 	- Probably could get away with two data points - allows for growth feature and demonstrating cleaning
 	 - Extract county / townland feature from names -  demonstrates relatively involved data cleaning 
@@ -13,5 +14,18 @@
 - [ ] Use KNN 
 	- Group towns together
 	- Compare with naive bayes
+- [ ] Find references 
+	- [ ] Discrete distributions 
+		-  Jaynes?
+		- Weiss - Introductory Statistics
+	- [ ] ML techniques 
+		- 100 page machine learning book 
+		- Elements of Statistical Learning
+		- Introduction to Statistical Learning
+	- [ ] CRISP-DM
+	- [ ] Programming techniques / style
+		- PEP-8
+		- Clean Code
+- [ ] Reread Assignment Brief & make sure everything is covered
 - [ ] Write Word Doc report
 	- What's my angle? 
