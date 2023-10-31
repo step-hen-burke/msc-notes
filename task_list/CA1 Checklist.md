@@ -5,6 +5,7 @@
 - [ ] Use linear regression 
 	- Population at future dates using lags of other variables
 	- Compare lasso, ridge, elasticnet 
+	- Compare RF-Regressor
 	- Compare to ARIMA
 	- Refer to CRISP-DM
 - [ ] Import and clean town data
