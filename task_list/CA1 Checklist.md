@@ -2,12 +2,13 @@
 	- Number of years with positive migration per decade
 - [ ] Use poisson distribution 
 	- Number of people in each age bracket
-- [ ] Use linear regression 
+- [x] Use linear regression ✅ 2023-11-01
 	- Population at future dates using lags of other variables
 	- Compare lasso, ridge, elasticnet 
 	- Compare RF-Regressor
 	- Compare to ARIMA
 	- Refer to CRISP-DM
+- [ ] Add annotations / justfication to machine learning section
 - [ ] Import and clean town data
 	- Probably could get away with two data points - allows for growth feature and demonstrating cleaning
 	 - Extract county / townland feature from names -  demonstrates relatively involved data cleaning 
@@ -29,4 +30,4 @@
 		- Clean Code
 - [ ] Reread Assignment Brief & make sure everything is covered
 - [ ] Write Word Doc report
-	- What's my angle? 
+	- What's my angle? - An Investigation into Irish Emigration in the 21st Century 
