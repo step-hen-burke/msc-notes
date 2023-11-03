@@ -26,7 +26,7 @@
 		- Introduction to Statistical Learning
 	- [ ] CRISP-DM
 	- [ ] Programming techniques / style
-		- PEP-8
+		- PEP-8- python enhancement proposal
 		- Clean Code
 - [ ] Reread Assignment Brief & make sure everything is covered
 - [ ] Write Word Doc report
