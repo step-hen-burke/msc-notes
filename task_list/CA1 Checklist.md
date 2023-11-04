@@ -10,6 +10,8 @@
 	- Try SVM regressor
 	- Refer to CRISP-DM
  Investigate best model selection using gridsearch.cv_results_ - might be ties
+ Regressor.score gives R^2 - extract for RF
+ Try polynomial features - interaction between population/migration/emigration?
 - [ ] Add annotations / justfication to machine learning section
 	- Reformat confusion matrices and discuss results
 
