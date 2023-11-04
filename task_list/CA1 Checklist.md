@@ -9,6 +9,7 @@
 	- Compare to ARIMA
 	- Try SVM regressor
 	- Refer to CRISP-DM
+ Investigate best model selection using gridsearch.cv_results_ - might be ties
 - [ ] Add annotations / justfication to machine learning section
 	- Reformat confusion matrices and discuss results
 
@@ -34,4 +35,4 @@
 		- Clean Code
 - [ ] Reread Assignment Brief & make sure everything is covered
 - [ ] Write Word Doc report
-	- What's my angle? - An Investigation into Irish Emigration in the 21st Century 
+	- What's my angle? - An Investigation into Irish Emigration trends in the 21st Century 
