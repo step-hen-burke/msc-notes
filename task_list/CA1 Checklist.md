@@ -7,12 +7,16 @@
 	- Compare lasso, ridge, elasticnet 
 	- Compare RF-Regressor
 	- Compare to ARIMA
+	- Try SVM regressor
 	- Refer to CRISP-DM
 - [ ] Add annotations / justfication to machine learning section
+	- Reformat confusion matrices and discuss results
+
 - [ ] Import and clean town data
 	- Probably could get away with two data points - allows for growth feature and demonstrating cleaning
 	 - Extract county / townland feature from names -  demonstrates relatively involved data cleaning 
 	  - Look at sizes of towns - are they lognormal? Can we extract a town_size variable?
+   
 - [ ] Use KNN 
 	- Group towns together
 	- Compare with naive bayes
