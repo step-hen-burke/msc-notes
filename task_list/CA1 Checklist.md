@@ -10,11 +10,6 @@
 	- Try SVM regressor
 	- Refer to CRISP-DM
  
- Investigate best model selection using gridsearch.cv_results_ - might be ties
- Regressor.score gives R^2 - extract for RF
- Try polynomial features - interaction between population/migration/emigration?
- Graph of test R^2 comparison
- 
 - [ ] Add annotations / justfication to machine learning section
 	- Reformat confusion matrices and discuss results
 
@@ -41,3 +36,11 @@
 - [ ] Reread Assignment Brief & make sure everything is covered
 - [ ] Write Word Doc report
 	- What's my angle? - An Investigation into Irish Emigration trends in the 21st Century 
+
+ 
+ Investigate best model selection using gridsearch.cv_results_ - might be ties
+ Regressor.score gives R^2 - extract for RF
+ Try polynomial features - interaction between population/migration/emigration?
+ Graph of test R^2 comparison
+ Say why I'm scaling the data
+ Talk about everything I tried but didn't include in notebook

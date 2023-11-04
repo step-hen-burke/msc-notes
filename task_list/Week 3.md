@@ -1,7 +1,7 @@
 ## Machine Learning
 - [x] Look into questions arising from [[lectures_3_10_23 | this week's lecture]] ✅ 2023-10-10
 - [x] Finish reading lecture notes ✅ 2023-10-10
-- [ ] Read lasso regression doc https://courses.cs.washington.edu/courses/cse446/17wi/slides/lasso.pdf
+- [x] Read lasso regression doc https://courses.cs.washington.edu/courses/cse446/17wi/slides/lasso.pdf ✅ 2023-11-04
 
 ### CA
 - [ ] Look into questions arising from [[lectures_3_10_23 | this week's lecture]]
