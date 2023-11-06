@@ -44,3 +44,4 @@
  Graph of test R^2 comparison
  Say why I'm scaling the data
  Talk about everything I tried but didn't include in notebook
+ Discuss class imbalance - SMOTE
