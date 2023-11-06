@@ -1,6 +1,6 @@
-- [ ] Use binomial distribution
+- [x] Use binomial distribution ✅ 2023-11-06
 	- Number of years with positive migration per decade
-- [ ] Use poisson distribution 
+- [x] Use poisson distribution ✅ 2023-11-06
 	- Number of people in each age bracket
 - [x] Use linear regression ✅ 2023-11-01
 	- Population at future dates using lags of other variables
@@ -12,15 +12,19 @@
  
 - [ ] Add annotations / justfication to machine learning section
 	- Reformat confusion matrices and discuss results
-
-- [ ] Import and clean town data
+ 
+**Not going ahead with this**
+- [x] Import and clean town data ✅ 2023-11-06 
 	- Probably could get away with two data points - allows for growth feature and demonstrating cleaning
 	 - Extract county / townland feature from names -  demonstrates relatively involved data cleaning 
 	  - Look at sizes of towns - are they lognormal? Can we extract a town_size variable?
-   
-- [ ] Use KNN 
+- [x] Use KNN ✅ 2023-11-06
 	- Group towns together
 	- Compare with naive bayes
+
+- [ ] Group emigration destinations together
+- [ ] See if destination emigration amounts are lognormal
+ 
 - [ ] Find references 
 	- [ ] Discrete distributions 
 		-  Jaynes?
@@ -34,14 +38,18 @@
 		- PEP-8- python enhancement proposal
 		- Clean Code
 - [ ] Reread Assignment Brief & make sure everything is covered
-- [ ] Write Word Doc report
-	- What's my angle? - An Investigation into Irish Emigration trends in the 21st Century 
-
  
  Investigate best model selection using gridsearch.cv_results_ - might be ties
- Regressor.score gives R^2 - extract for RF
- Try polynomial features - interaction between population/migration/emigration?
- Graph of test R^2 comparison
- Say why I'm scaling the data
- Talk about everything I tried but didn't include in notebook
- Discuss class imbalance - SMOTE
+ 
+- [ ] Try polynomial features - interaction between population/migration/emigration?
+- [ ] Graph of test R^2 comparison
+- [ ] Regressor.score gives R^2 - extract for RF
+
+Say why I'm scaling the data
+ 
+Talk about everything I tried but didn't include in notebook
+ 
+Discuss class imbalance - SMOTE
+
+- [ ] Write Word Doc report
+	- What's my angle? - An Investigation into Irish Emigration trends in the 21st Century 
