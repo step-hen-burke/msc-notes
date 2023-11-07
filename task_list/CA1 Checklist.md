@@ -10,7 +10,7 @@
 	- Try SVM regressor
 	- Refer to CRISP-DM
  
-- [ ] Add annotations / justfication to machine learning section
+- [x] Add annotations / justfication to machine learning section ✅ 2023-11-07
 	- Reformat confusion matrices and discuss results
  
 **Not going ahead with this**
@@ -37,11 +37,11 @@
 	- [ ] Programming techniques / style
 		- PEP-8- python enhancement proposal
 		- Clean Code
-- [ ] Reread Assignment Brief & make sure everything is covered
+- [x] Reread Assignment Brief & make sure everything is covered ✅ 2023-11-07
  
  Investigate best model selection using gridsearch.cv_results_ - might be ties
  
-- [ ] Try polynomial features - interaction between population/migration/emigration?
+- [x] Try polynomial features - interaction between population/migration/emigration? ✅ 2023-11-07
 - [ ] Graph of test R^2 comparison
 - [ ] Regressor.score gives R^2 - extract for RF
 
