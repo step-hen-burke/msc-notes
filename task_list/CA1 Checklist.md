@@ -26,15 +26,15 @@
 - [ ] See if destination emigration amounts are lognormal
  
 - [ ] Find references 
-	- [ ] Discrete distributions 
+	- [x] Discrete distributions ✅ 2023-11-08
 		-  Jaynes?
 		- Weiss - Introductory Statistics
-	- [ ] ML techniques 
+	- [x] ML techniques ✅ 2023-11-08
 		- 100 page machine learning book 
 		- Elements of Statistical Learning
 		- Introduction to Statistical Learning
-	- [ ] CRISP-DM
-	- [ ] Programming techniques / style
+	- [x] CRISP-DM ✅ 2023-11-08
+	- [x] Programming techniques / style ✅ 2023-11-08
 		- PEP-8- python enhancement proposal
 		- Clean Code
 - [x] Reread Assignment Brief & make sure everything is covered ✅ 2023-11-07
@@ -51,5 +51,5 @@ Talk about everything I tried but didn't include in notebook
  
 Discuss class imbalance - SMOTE
 
-- [ ] Write Word Doc report
+- [x] Write Word Doc report ✅ 2023-11-08
 	- What's my angle? - An Investigation into Irish Emigration trends in the 21st Century 
