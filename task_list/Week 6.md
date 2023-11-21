@@ -4,6 +4,3 @@
 
 - Do ML NLP tutorial 7 part 3 (parts 1 and 2 go with next week's class) 
 - Read into nlp fundamentals 
-
-
-
