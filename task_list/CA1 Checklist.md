@@ -37,7 +37,7 @@
 	- [x] Programming techniques / style ✅ 2023-11-08
 		- PEP-8- python enhancement proposal
 		- Clean Code
-- [x] Reread Assignment Brief & make sure everything is covered ✅ 2023-11-07
+- [x] Reread Assignment Brief & make sure everything is covered ✅ 2023-11-27
  
  Investigate best model selection using gridsearch.cv_results_ - might be ties
  
