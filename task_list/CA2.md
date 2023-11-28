@@ -89,4 +89,32 @@ Transport sector analysis in Ireland + comparison with other countries
 	 - Estimate complexity
 	 - Split into subtasks - tie directly to learning outcomes
 	 - Fit into gantt chart based on above dates
- 
+
+```mermaid
+gantt 
+title CA2
+dateFormat DD-MM-YYYY
+
+section Planning
+Initial Research: p1, 11-30-2023, 3d
+Outlining: p2, 11-30-2023, 2d 
+
+section EDA
+Data Gathering: dg, after p2, 3d
+Data Exploration: de, after dg, 5d
+Data Processing: dp, after dg, 4d
+Hypothesis formulation: hf, after de, 1d
+
+section Analysis
+Statistical Analysis: sa, after de, 5d
+ML Analysis: ml, after hf, 3d
+ML Sentiment: ms, after ml, 2d
+
+section Dashboard
+Dashboard: db, after sa, 3d
+
+section Writeup
+Draft: drf, after db, 4d
+Editing: after drf, 2d
+
+```
