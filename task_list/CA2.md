@@ -100,13 +100,13 @@ Initial Research: p1, 11-30-2023, 3d
 Outlining: p2, 11-30-2023, 2d 
 
 section EDA
-Data Gathering: dg, after p2, 3d
-Data Exploration: de, after dg, 5d
-Data Processing: dp, after dg, 4d
+Data Gathering: dg, after p2, 5d
+Data Exploration: de, after dg, 6d
+Data Processing: dp, after dg, 7d
 Hypothesis formulation: hf, after de, 1d
 
 section Analysis
-Statistical Analysis: sa, after de, 5d
+Statistical Analysis: sa, after hf, 5d
 ML Analysis: ml, after hf, 3d
 ML Sentiment: ms, after ml, 2d
 
