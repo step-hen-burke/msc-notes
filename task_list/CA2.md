@@ -49,6 +49,8 @@ Transport sector analysis in Ireland + comparison with other countries
 	- choose appropriate features
 - Collect dataset about transport and perform sentiment analysis for producers/consumers PoV in Ireland (**25**)
 - [ ] Thoughts on how to do this without twitter? News APIs?
+		- https://newsapi.org
+	- `e847bba6b48a41b6955a4ecd86d5eac8`
 - train/test splits, cross validation, appropriate metric choices -  validate modelling outcomes (**30**)
 	- dimensionality reduction where appropriate
  - Graphics / table to compare ML modelling outcomes (**15**)
