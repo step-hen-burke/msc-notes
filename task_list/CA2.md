@@ -51,6 +51,8 @@ Transport sector analysis in Ireland + comparison with other countries
 - [ ] Thoughts on how to do this without twitter? News APIs?
 		- https://newsapi.org
 	- `e847bba6b48a41b6955a4ecd86d5eac8`
+	 - https://mediastack.com/sources/ireland-news-api
+	  - https://docs.aylien.com/newsapi/v6/getting-started/#overview
 - train/test splits, cross validation, appropriate metric choices -  validate modelling outcomes (**30**)
 	- dimensionality reduction where appropriate
  - Graphics / table to compare ML modelling outcomes (**15**)
