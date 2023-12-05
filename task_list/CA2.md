@@ -88,8 +88,8 @@ Transport sector analysis in Ireland + comparison with other countries
 
  __TODO:__ 
  - [x] Set up obsidian vault for CA2 and get md kanban board up and running ✅ 2023-12-02
- - [ ] Identify dates when I will commit to working on the CA
- - [ ] Identify project phases - initial research, data gathering, data exploration, analysis, presentation outcomes / deliverables, etc. 
+ - [x] Identify dates when I will commit to working on the CA ✅ 2023-12-05
+ - [x] Identify project phases - initial research, data gathering, data exploration, analysis, presentation outcomes / deliverables, etc. ✅ 2023-12-05
 	 - Estimate complexity
 	 - Split into subtasks - tie directly to learning outcomes
 	 - Fit into gantt chart based on above dates
@@ -129,5 +129,3 @@ https://data.london.gov.uk/dataset/number-bicycle-hires
 https://github.com/yvetteyyuan/Santander-Cycles-User-Data-Analysis
 https://data.gov.ie/dataset/dublinbikes-api
 https://www.met.ie/climate/available-data/historical-data
-
-12
