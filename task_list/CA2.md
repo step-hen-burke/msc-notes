@@ -27,7 +27,7 @@ Transport sector analysis in Ireland + comparison with other countries
 		- (pandas vs SQL)
 		- (Postgres vs Sqlite)
 		- (requests vs async grequests)
-		- 
+		- pandas vs pyspark?
   - [ ] Clarify whether using SQL / R would be a valid comparison
   - [ ] Can we do anything not in jupyter? Database? Test script?
 ### Statistics
@@ -52,6 +52,7 @@ Transport sector analysis in Ireland + comparison with other countries
 		- https://newsapi.org
 	- `e847bba6b48a41b6955a4ecd86d5eac8`
 	 - https://mediastack.com/sources/ireland-news-api
+		  - https://mediastack.com/documentation - historical news is paid - 25 euro per month
 	  - https://docs.aylien.com/newsapi/v6/getting-started/#overview
 - train/test splits, cross validation, appropriate metric choices -  validate modelling outcomes (**30**)
 	- dimensionality reduction where appropriate
@@ -125,8 +126,39 @@ Editing: after drf, 2d
 
 ---
 ### Data sources
-https://data.london.gov.uk/dataset/number-bicycle-hires
+https://data.london.gov.uk/dataset/number-bicycle-hires - xls for this data is horribly formatted
 https://data.london.gov.uk/dataset/cycle-hire-availability
 https://github.com/yvetteyyuan/Santander-Cycles-User-Data-Analysis
 https://data.gov.ie/dataset/dublinbikes-api
 https://www.met.ie/climate/available-data/historical-data
+https://developer.jcdecaux.com/#/opendata/vls?page=static&contract=dublin
+
+- Scrape dublinbike historical data from https://data.gov.ie/dataset/dublinbikes-api
+Quarterly data is at a 5 minute cadence and each file is ~300mb
+
+
+Gathering data:
+Twitter is the obvious choice for sentiment analysis, but the API is prohibitively expensive. 
+News APIs are the next port of call, but again, mostly paid, or have a very stripped down free trial - Mediastack doesn't offer historical data for free for example.
+Aylien was promising but wouldn't even let me verify my email - presumably they're targeted at businesses and automatically blocked a student email.
+
+Bike data is easy enough to gather historically - available on data.gov.ie historically in csv format 
+London comparison bike data also readily available via data.london.gov.uk, but format is horrible - multiple datasets munged together into a single xls sheet. Needs significant processing to separate useful signals.
+Weather data is also easy to gather from met.ie - historical data could be downloaded all at once for a single weather station (Dublin Phoenix Park), and this is all that's needed as the Dublin bikes network is extremely local.
+
+
+## Questions:
+
+How many trips are made per year?
+How does this vary across the year?
+What stations are busiest?
+What days of the week are busiest? Times of the day? Does this vary by station?
+
+Do any stations consistently run out of bikes / remain at max capacity for a long time? Could these benefit from more frequent pickups/drop-offs or a capacity upgrade?
+
+Can we tie the addresses to regions in Dublin? Populations per region informing service uptake? https://ie-cso.maps.arcgis.com/apps/webappviewer/index.html?id=0fe164e96d254776866425e2fd3e73af
+gis grid for ireland - https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/metadata/3c362237-daa4-45e2-8c16-aaadfb1a003b
+- click on any grid, select show in table, clear filter to get full table and export to csv
+
+Does weather affect usage of the network? Less usage on rainy/cold days, etc.
+
