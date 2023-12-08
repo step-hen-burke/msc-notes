@@ -126,6 +126,7 @@ Editing: after drf, 2d
 ---
 ### Data sources
 https://data.london.gov.uk/dataset/number-bicycle-hires
+https://data.london.gov.uk/dataset/cycle-hire-availability
 https://github.com/yvetteyyuan/Santander-Cycles-User-Data-Analysis
 https://data.gov.ie/dataset/dublinbikes-api
 https://www.met.ie/climate/available-data/historical-data
