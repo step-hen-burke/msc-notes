@@ -12,7 +12,7 @@ Transport sector analysis in Ireland + comparison with other countries
 ### Programming
 
 - Implement in Jupyter (**20**)
-- Gather and process data stored in two different formats (20)
+- ~~Gather and process data stored in two different formats (20)~~
 	- csv, api, json, xml, database etc.
 - Documentation (**20**)
 	- justify and explain code choices
@@ -62,7 +62,7 @@ Transport sector analysis in Ireland + comparison with other countries
 - Discuss process of acquiring raw data (***15**)
 	- positive / negative aspects of acquisition
 	- Discuss relevance
-	- Discuss licensing implications
+	- ~~Discuss licensing implications~~
 - EDA (**25**)
 	- Missing data
 	- Inconsistences
