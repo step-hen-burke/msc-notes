@@ -18,7 +18,7 @@ Transport sector analysis in Ireland + comparison with other countries
 	- justify and explain code choices
 - Testing (**20**)
 	- Testing & optimisation strategy 
-		- ensure code is doing what it's meant to (unit tests?)
+		- ~~ensure code is doing what it's meant to (unit tests?)~~
 		- ensure code is making good use of resources (multithreading / async?)
   - [ ] Clarify whether we're expected to use a testing harness
 - Manipulation (**20**)
