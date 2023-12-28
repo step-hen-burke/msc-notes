@@ -92,7 +92,9 @@ Transport sector analysis in Ireland + comparison with other countries
  - [x] Identify dates when I will commit to working on the CA ✅ 2023-12-05
  - [x] Identify project phases - initial research, data gathering, data exploration, analysis, presentation outcomes / deliverables, etc. ✅ 2023-12-05
 	 - Estimate complexity
-	 - Split into subtasks - tie directly to learning outcomes
+	 - Split into subtasks - tie directly to learning outcomes```python
+predicted_data = pd.DataFrame(columns=['station_id', 'year', 'population'])
+```
 	 - Fit into gantt chart based on above dates
 
 ```mermaid
