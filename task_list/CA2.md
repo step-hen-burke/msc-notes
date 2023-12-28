@@ -11,43 +11,45 @@ Transport sector analysis in Ireland + comparison with other countries
 
 ### Programming
 
-- Implement in Jupyter (**20**)
+~~- Implement in Jupyter (**20**)~~
 - ~~Gather and process data stored in two different formats (20)~~
 	- csv, api, json, xml, database etc.
 - Documentation (**20**)
 	- justify and explain code choices
-- Testing (**20**)
-	- Testing & optimisation strategy 
+~~- Testing (**20**)~~
+	~~- Testing & optimisation strategy~~ 
 		- ~~ensure code is doing what it's meant to (unit tests?)~~
 		- ensure code is making good use of resources (multithreading / async?)
   - [ ] Clarify whether we're expected to use a testing harness
-- Manipulation (**20**)
-	- Compare 2 (+) libraries/techniques for  - processing & aggregating data 
+~~- Manipulation (**20**)~~
+	~~- Compare 2 (+) libraries/techniques for  - processing & aggregating data~~ 
+		 ~~- CSV vs parquet~~
 		- (pandas vs numpy) 
 		- (pandas vs SQL)
 		- (Postgres vs Sqlite)
 		- (requests vs async grequests)
 		- pandas vs pyspark?
+  
   - [ ] Clarify whether using SQL / R would be a valid comparison
   - [ ] Can we do anything not in jupyter? Database? Test script?
 ### Statistics
 
 - Descriptive statistics, visualisations -> justify chosen models (**30**)
 - Inferential statistical analysis of variables in datasets (confidence intervals, etc.) (**25**)
-- Compare countries to Ireland with parametric & non-parametric inferential stats (5 different) (**40**)
-	- t test
-	- anova
-	- wilcoxon
-	- chi squared
-	- U test
+- ~~Compare countries to Ireland with parametric & non-parametric inferential stats (5 different) (**40**)
+	- ~~t test~~
+	- ~~anova~~
+	- ~~wilcoxon~~
+	- ~~chi squared~~
+	- ~~U test~~
 	- ...
- - Tie statistical analysis to the rest of the project - challenges, where it lead to, etc. (**15**)
+ - ~~Tie statistical analysis to the rest of the project - challenges, where it lead to, etc. (**15**)~~
 
 ### Machine Learning
 - Justify use of ML in transport analysis - prediction, classification, clustering, sentiment analysis, recommendation, time series analysis (at least 2 methods) (**30**)
 	- select hyperparameters with GridSearchCV
 	- choose appropriate features
-- Collect dataset about transport and perform sentiment analysis for producers/consumers PoV in Ireland (**25**)
+- ~~Collect dataset about transport~~ and perform sentiment analysis for producers/consumers PoV in Ireland (**25**)
 - [ ] Thoughts on how to do this without twitter? News APIs?
 		- https://newsapi.org
 	- `e847bba6b48a41b6955a4ecd86d5eac8`
@@ -64,11 +66,12 @@ Transport sector analysis in Ireland + comparison with other countries
 	- Discuss relevance
 	- ~~Discuss licensing implications~~
 - EDA (**25**)
-	- Missing data
+	- Missing data - can be ignored in many cases (weather etc.) - bike data contains missing periods
 	- Inconsistences
 	- Anomalies
 	- Discuss raw data 
 	- Appropriate visualisations
+		 - [ ] map of stations & population
 - Feature engineering (**30**)
 	- Enrich data for use in ML
 	- Rationalise decisions
@@ -164,3 +167,14 @@ gis grid for ireland - https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.searc
 
 Does weather affect usage of the network? Less usage on rainy/cold days, etc.
 
+
+### TODO
+- Additional plots for exploration
+- ML
+	- Regression  - how many bikes available
+	- Classification - Bike station needs attention (full or empty)
+- Sentiment Analysis
+- Dashboard
+- Add discussion to notebooks - Tufte in particular (get some discussion from previous CA)
+- Add references
+- Writeup
