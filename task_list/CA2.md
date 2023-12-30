@@ -49,7 +49,7 @@ Transport sector analysis in Ireland + comparison with other countries
 - Justify use of ML in transport analysis - prediction, classification, clustering, sentiment analysis, recommendation, time series analysis (at least 2 methods) (**30**)
 	- select hyperparameters with GridSearchCV
 	- choose appropriate features
-- ~~Collect dataset about transport~~ and perform sentiment analysis for producers/consumers PoV in Ireland (**25**)
+- ~~Collect dataset about transport~~ ~~and perform sentiment analysis for producers/consumers PoV in Ireland (**25**)~~
 - [ ] Thoughts on how to do this without twitter? News APIs?
 		- https://newsapi.org
 	- `e847bba6b48a41b6955a4ecd86d5eac8`
@@ -73,7 +73,7 @@ Transport sector analysis in Ireland + comparison with other countries
 	- Appropriate visualisations
 		 - [ ] map of stations & population
 - Feature engineering (**30**)
-	- Enrich data for use in ML
+	- ~~Enrich data for use in ML~~
 	- Rationalise decisions
 	- Show how treatment has addressed issues identified in EDA
 	- Discuss how engineered data will help with further analysis
