@@ -173,8 +173,8 @@ Does weather affect usage of the network? Less usage on rainy/cold days, etc.
 - ML
 	- Regression  - how many bikes available
 	- Classification - Bike station needs attention (full or empty)
-- Sentiment Analysis
+- ~~Sentiment Analysis
 - Dashboard
-- Add discussion to notebooks - Tufte in particular (get some discussion from previous CA)
+- ~~Add discussion to notebooks - Tufte in particular (get some discussion from previous CA)
 - Add references
 - Writeup
