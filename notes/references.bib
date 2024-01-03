@@ -1,3 +1,16 @@
+@inproceedings{10.5555/3294996.3295074,
+  title = {{{LightGBM}}: {{A}} Highly Efficient Gradient Boosting Decision Tree},
+  booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
+  author = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
+  year = {2017},
+  series = {{{NIPS}}'17},
+  pages = {3149--3157},
+  publisher = {{Curran Associates Inc.}},
+  address = {{Red Hook, NY, USA}},
+  abstract = {Gradient Boosting Decision Tree (GBDT) is a popular machine learning algorithm, and has quite a few effective implementations such as XGBoost and pGBRT. Although many engineering optimizations have been adopted in these implementations, the efficiency and scalability are still unsatisfactory when the feature dimension is high and data size is large. A major reason is that for each feature, they need to scan all the data instances to estimate the information gain of all possible split points, which is very time consuming. To tackle this problem, we propose two novel techniques: Gradient-based One-Side Sampling (GOSS) and Exclusive Feature Bundling (EFB). With GOSS, we exclude a significant proportion of data instances with small gradients, and only use the rest to estimate the information gain. We prove that, since the data instances with larger gradients play a more important role in the computation of information gain, GOSS can obtain quite accurate estimation of the information gain with a much smaller data size. With EFB, we bundle mutually exclusive features (i.e., they rarely take nonzero values simultaneously), to reduce the number of features. We prove that finding the optimal bundling of exclusive features is NP-hard, but a greedy algorithm can achieve quite good approximation ratio (and thus can effectively reduce the number of features without hurting the accuracy of split point determination by much). We call our new GBDT implementation with GOSS and EFB LightGBM. Our experiments on multiple public datasets show that, LightGBM speeds up the training process of conventional GBDT by up to over 20 times while achieving almost the same accuracy.},
+  isbn = {978-1-5108-6096-4}
+}
+
 @article{1b203adf-7660-3d30-b519-ddb7d210b62c,
   title = {Visualising the Demographic Factors Which Shape Population Age Structure},
   author = {Wilson, Tom},
@@ -184,6 +197,24 @@
   urldate = {2023-10-14},
   langid = {english},
   file = {/home/stephen/Zotero/storage/7BYV3XHJ/1-s2.0-S0160412019304404-main.pdf;/home/stephen/Zotero/storage/7SGFJ7I2/Chen et al. - 2019 - A comparison of linear regression, regularization,.pdf}
+}
+
+@inproceedings{chenXGBoostScalableTree2016,
+  title = {{{XGBoost}}: {{A Scalable Tree Boosting System}}},
+  shorttitle = {{{XGBoost}}},
+  booktitle = {Proceedings of the 22nd {{ACM SIGKDD International Conference}} on {{Knowledge Discovery}} and {{Data Mining}}},
+  author = {Chen, Tianqi and Guestrin, Carlos},
+  year = {2016},
+  month = aug,
+  eprint = {1603.02754},
+  primaryclass = {cs},
+  pages = {785--794},
+  doi = {10.1145/2939672.2939785},
+  urldate = {2024-01-03},
+  abstract = {Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/ZQEAAMWK/Chen and Guestrin - 2016 - XGBoost A Scalable Tree Boosting System.pdf;/home/stephen/Zotero/storage/NT4H2GMI/1603.html},
+  keywords = {ComputerScience-MachineLearning}
 }
 
 @article{chiangInfoCleanProtectingSensitive2017,
@@ -440,6 +471,19 @@
 
 @misc{HttpsWwwReddit,
   title = {{{https://www.reddit.com/dev/api/}}}
+}
+
+@techreport{huddeItMobilityCulture2022,
+  type = {Preprint},
+  title = {It's the Mobility Culture, Stupid! {{Winter}} Conditions Strongly Reduce Bicycle Usage in {{German}} Cities, but Not in {{Dutch}} Ones},
+  author = {Hudde, Ansgar},
+  year = {2022},
+  month = may,
+  institution = {{SocArXiv}},
+  doi = {10.31235/osf.io/yejxf},
+  urldate = {2024-01-03},
+  abstract = {Cycling is healthy, cheap, and environmentally sustainable, but these benefits remain unexploited if many people only cycle in summer but not in winter. Seasonal differences in cycling are small in Dutch cities but relatively large in German cities. This paper tests: is it because seasonal conditions are more moderate in the Netherlands or because German cyclists are more sensitive to temperature, rain, and daylight hours? After discussing how German culture mirrors and potentially perpetuates seasonal cycling patterns, I analyse around 335,000 trips from German and Dutch travel surveys enriched with city-level climate data. Results show that Germans react about twice as strongly to changes in temperature and daylight hours than the Dutch. This reveals untapped potential for year-round cycling in Germany, with its benefits for health, finances and sustainability: The barrier is not the natural environment, but people's response to it, which could potentially change and be influenced by policy.},
+  file = {/home/stephen/Zotero/storage/HJ2WJWKZ/Hudde - 2022 - It's the mobility culture, stupid! Winter conditio.pdf}
 }
 
 @book{jamesIntroductionStatisticalLearning2013,
