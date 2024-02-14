@@ -26,7 +26,6 @@ Ideally a project should be novel - adds value to the area of research - novel p
 Capstone project is 12-15k words
 
 Validity, bias and ethics need to feature strongly 
-# Advanced Data Analytics
 
 
 
