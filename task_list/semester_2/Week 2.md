@@ -8,7 +8,5 @@ First assignment is a short powerpoint presentation - due in 2.5 weeks
 
 - [ ] Pull together some chapters / papers on DNN compression techniques - are there any obvious novel angles or high level papers summarising the SoA
 
-
 Does the exploration of a dataset / technology in a novel way constitute primary research? Dataset is still secondary....
 Primary research asking about model artifact size??? Importance of accuracy vs disk space? Avg internet allowance?
-
