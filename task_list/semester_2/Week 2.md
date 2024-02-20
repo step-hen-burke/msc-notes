@@ -10,3 +10,9 @@ First assignment is a short powerpoint presentation - due in 2.5 weeks
 
 Does the exploration of a dataset / technology in a novel way constitute primary research? Dataset is still secondary....
 Primary research asking about model artifact size??? Importance of accuracy vs disk space? Avg internet allowance?
+
+
+---
+
+- [ ] Read NN notes and papers for Adv DA 
+- [ ] Experiment with NNs
