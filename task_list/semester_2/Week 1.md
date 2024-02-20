@@ -8,7 +8,7 @@
 
 Not looking for theory of research in assignments - more application of what we learn
 
-- [ ] Start thinking of topic for capstone project
+- [x] Start thinking of topic for capstone project ✅ 2024-02-16
 
 - First assignment due March 10th - issued February 20th - independent from other module CAs
 - Second assignment March 12th -> May 12th
