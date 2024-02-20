@@ -4,7 +4,7 @@
 - Precursor to the capstone project - resulting in a research proposal
 - 60% or higher is generally preferable as a good setup for the project
 
-- [ ] Read section 6.8.3 of capstone project module descriptor - learning outcomes
+- [x] Read section 6.8.3 of capstone project module descriptor - learning outcomes ✅ 2024-02-20
 
 Not looking for theory of research in assignments - more application of what we learn
 
