@@ -1,5 +1,5 @@
-- [ ] Email Rory and start off discussion re capstone topic - rbyrne@cct.ie
-- [ ] Ask about suitability of DL compression - is it too abstract, does it even have a problem area (embedded systems applications), what would the artefact be or is the body of research sufficient (maybe a methodology outline?), etc. Should research be more "applied" - with an application in mind re problem domain?
+- [x] Email Rory and start off discussion re capstone topic - rbyrne@cct.ie ✅ 2024-02-22
+- [x] Ask about suitability of DL compression - is it too abstract, does it even have a problem area (embedded systems applications), what would the artefact be or is the body of research sufficient (maybe a methodology outline?), etc. Should research be more "applied" - with an application in mind re problem domain? ✅ 2024-02-22
 
 First assignment is a short powerpoint presentation - due in 2.5 weeks
 - Research title (10) topic area (15) including background and reasoning for choosing the area
