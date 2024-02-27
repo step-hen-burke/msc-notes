@@ -14,5 +14,5 @@ Primary research asking about model artifact size??? Importance of accuracy vs d
 
 ---
 
-- [ ] Read NN notes and papers for Adv DA 
+- [x] Read NN notes and papers for Adv DA ✅ 2024-02-27
 - [ ] Experiment with NNs
