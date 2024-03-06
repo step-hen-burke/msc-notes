@@ -1,4 +1,6 @@
-Deep Learning applications using streaming data from IoT devices
+"Deep Learning applications using streaming data from IoT devices"
+
+"Deep Learning for Real-time Data Analytics in Big Data Architectures"
 
 Research deep learning models and use-cases that use data streamed from IoT 
 
