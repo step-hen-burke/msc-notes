@@ -1,3 +1,75 @@
+@inproceedings{10.1007/978-3-031-31327-1_10,
+  title = {Model Compression Techniques in Deep Neural Networks},
+  booktitle = {Pan-African Conference on Artificial Intelligence},
+  author = {Yesuf, Mubarek Mohammed and Assefa, Beakal Gizachew},
+  editor = {Girma Debelee, Taye and Ibenthal, Achim and Schwenker, Friedhelm},
+  year = {2023},
+  pages = {169--190},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  abstract = {With the current set-up, the success of Deep Neural Network models is highly tied to their size. Although this property might help them improve their performance, it makes them difficult to train, deploy them on resource-constrained machines, and iterate on experiments. There is also a growing concern about their environmental and economic impacts. Model compression is a set of techniques that are applied to reduce the size of Neural Network (NN) models while maintaining their performance. This survey presents state-of-the-art model compression methods, discusses how they are hybridized, highlights the changes they could cause beyond size reduction, and puts forward open research problems for further study.},
+  isbn = {978-3-031-31327-1}
+}
+
+@inproceedings{10.1007/978-981-99-2854-5_24,
+  title = {A Survey on Efficient Neural Network Compression Techniques},
+  booktitle = {Proceedings of International Conference on Computational Intelligence},
+  author = {Jain, Nipun and Wyawahare, Medha and Mankar, Vivek and Paratkar, Tanmay},
+  editor = {Tiwari, Ritu and Pavone, Mario F. and Saraswat, Mukesh},
+  year = {2023},
+  pages = {285--298},
+  publisher = {Springer Nature Singapore},
+  address = {Singapore},
+  abstract = {We have seen substantial advancements in the performance and accuracy of neural networks (NNs)-based models for a wide range of issues over the last decade. Highly over-parameterized models are frequently used to attain this improvement. The size of the model grows as the number of parameters grows, making it impractical for use in many resource-constrained applications. With the increase in deep learning-based IoT applications demanding fast real-time inference, with low consumption of energy and high accuracy, the need for compressing these neural networks arises. In this paper, we have summarized and discussed some of the main techniques to compress the neural network by maintaining its accuracy.},
+  isbn = {978-981-9928-54-5}
+}
+
+@inproceedings{10.1145/3458473.3458823,
+  title = {Performance of Deep Neural Networks on Low-Power {{IoT}} Devices},
+  booktitle = {Proceedings of the Workshop on Benchmarking Cyber-Physical Systems and Internet of Things},
+  author = {Profentzas, Christos and Almgren, Magnus and Landsiedel, Olaf},
+  year = {2021},
+  series = {{{CPS-IoTBench}} '21},
+  pages = {32--37},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {10.1145/3458473.3458823},
+  abstract = {Advances in deep learning have revolutionized machine learning by solving complex tasks such as image, speech, and text recognition. However, training and inference of deep neural networks are resource-intensive. Recently, researchers made efforts to bring inference to IoT edge and sensor devices which have become the prime data sources nowadays. However, running deep neural networks on low-power IoT devices is challenging due to their resource-constraints in memory, compute power, and energy. This paper presents a benchmark to grasp these trade-offs by evaluating three representative deep learning frameworks: uTensor, TF-Lite-Micro, and CMSIS-NN. Our benchmark reveals significant differences and trade-offs for each framework and its tool-chain: (1) We find that uTensor is the most straightforward framework to use, followed by TF-Micro, and then CMSIS-NN. (2) Our evaluation shows large differences in energy, RAM, and Flash footprints. For example, in terms of energy, CMSIS-NN is the most efficient, followed by TF-Micro and then uTensor, each with a significant gap.},
+  isbn = {978-1-4503-8439-1},
+  keywords = {DeepNeuralNetworks,IoT,Low-Power}
+}
+
+@article{10.1145/3570955,
+  title = {Transforming Large-Size to Lightweight Deep Neural Networks for {{IoT}} Applications},
+  author = {Mishra, Rahul and Gupta, Hari},
+  year = {2023},
+  month = feb,
+  journal = {Acm Computing Surveys},
+  volume = {55},
+  number = {11},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  issn = {0360-0300},
+  doi = {10.1145/3570955},
+  abstract = {Deep Neural Networks (DNNs) have gained unprecedented popularity due to their high-order performance and automated feature extraction capability. This has encouraged researchers to incorporate DNN in different Internet of Things (IoT) applications in recent years. However, the colossal requirement of computation, energy, and storage of DNNs make their deployment prohibitive on resource-constrained IoT devices. Therefore, several compression techniques have been proposed in recent years to reduce the energy, storage, and computation requirements of the DNN. These techniques have utilized a different perspective for compressing a DNN with minimal accuracy compromise. This encourages us to comprehensively overview DNN compression techniques for the IoT. This article presents a comprehensive overview of existing literature on compressing the DNN that reduces energy consumption, storage, and computation requirements for IoT applications. We divide the existing approaches into five broad categories---network pruning, sparse representation, bits precision, knowledge distillation, and miscellaneous---based upon the mechanism incorporated for compressing the DNN. The article discusses the challenges associated with each category of DNN compression techniques and presents some prominent applications using IoT in conjunction with a compressed DNN. Finally, we provide a quick summary of existing work under each category with the future direction in DNN compression.},
+  articleno = {233},
+  issue_date = {November 2023},
+  keywords = {Compression,KnowledgeDistillation,Pruning,SparseRepresentation}
+}
+
+@inproceedings{10.5555/3241189.3241275,
+  title = {Understanding the Mirai Botnet},
+  booktitle = {Proceedings of the 26th {{USENIX}} Conference on Security Symposium},
+  author = {Antonakakis, Manos and April, Tim and Bailey, Michael and Bernhard, Matthew and Bursztein, Elie and Cochran, Jaime and Durumeric, Zakir and Halderman, J. Alex and Invernizzi, Luca and Kallitsis, Michalis and Kumar, Deepak and Lever, Chaz and Ma, Zane and Mason, Joshua and Menscher, Damian and Seaman, Chad and Sullivan, Nick and Thomas, Kurt and Zhou, Yi},
+  year = {2017},
+  series = {{{SEC}}'17},
+  pages = {1093--1110},
+  publisher = {USENIX Association},
+  address = {USA},
+  abstract = {The Mirai botnet, composed primarily of embedded and IoT devices, took the Internet by storm in late 2016 when it overwhelmed several high-profile targets with massive distributed denial-of-service (DDoS) attacks. In this paper, we provide a seven-month retrospective analysis of Mirai's growth to a peak of 600k infections and a history of its DDoS victims. By combining a variety of measurement perspectives, we analyze how the botnet emerged, what classes of devices were affected, and how Mirai variants evolved and competed for vulnerable hosts. Our measurements serve as a lens into the fragile ecosystem of IoT devices. We argue that Mirai may represent a sea change in the evolutionary development of botnets--the simplicity through which devices were infected and its precipitous growth, demonstrate that novice malicious techniques can compromise enough low-end devices to threaten even some of the best-defended targets. To address this risk, we recommend technical and nontechnical interventions, as well as propose future research directions.},
+  isbn = {978-1-931971-40-9}
+}
+
 @inproceedings{10.5555/3294996.3295074,
   title = {{{LightGBM}}: {{A}} Highly Efficient Gradient Boosting Decision Tree},
   booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
@@ -5,10 +77,21 @@
   year = {2017},
   series = {{{NIPS}}'17},
   pages = {3149--3157},
-  publisher = {{Curran Associates Inc.}},
-  address = {{Red Hook, NY, USA}},
+  publisher = {Curran Associates Inc.},
+  address = {Red Hook, NY, USA},
   abstract = {Gradient Boosting Decision Tree (GBDT) is a popular machine learning algorithm, and has quite a few effective implementations such as XGBoost and pGBRT. Although many engineering optimizations have been adopted in these implementations, the efficiency and scalability are still unsatisfactory when the feature dimension is high and data size is large. A major reason is that for each feature, they need to scan all the data instances to estimate the information gain of all possible split points, which is very time consuming. To tackle this problem, we propose two novel techniques: Gradient-based One-Side Sampling (GOSS) and Exclusive Feature Bundling (EFB). With GOSS, we exclude a significant proportion of data instances with small gradients, and only use the rest to estimate the information gain. We prove that, since the data instances with larger gradients play a more important role in the computation of information gain, GOSS can obtain quite accurate estimation of the information gain with a much smaller data size. With EFB, we bundle mutually exclusive features (i.e., they rarely take nonzero values simultaneously), to reduce the number of features. We prove that finding the optimal bundling of exclusive features is NP-hard, but a greedy algorithm can achieve quite good approximation ratio (and thus can effectively reduce the number of features without hurting the accuracy of split point determination by much). We call our new GBDT implementation with GOSS and EFB LightGBM. Our experiments on multiple public datasets show that, LightGBM speeds up the training process of conventional GBDT by up to over 20 times while achieving almost the same accuracy.},
   isbn = {978-1-5108-6096-4}
+}
+
+@article{10093861,
+  title = {Benchmarking Neural Network Compression Techniques for Ocular-Based User Authentication on Smartphones},
+  author = {Almadan, Ali and Rattani, Ajita},
+  year = {2023},
+  journal = {IEEE access : practical innovations, open solutions},
+  volume = {11},
+  pages = {36550--36565},
+  doi = {10.1109/ACCESS.2023.3265357},
+  keywords = {Authentication,BiologicalSystemModeling,Biometrics(AccessControl),ComputationalModeling,DeepLearning,EdgeComputing,MobileBiometrics,NeuralNetworkCompression,OcularBiometrics,On-DeviceAI,Quantization(Signal),SmartPhones}
 }
 
 @article{1b203adf-7660-3d30-b519-ddb7d210b62c,
@@ -20,11 +103,26 @@
   eprint = {26332097},
   eprinttype = {jstor},
   pages = {867--890},
-  publisher = {{Max-Planck-Gesellschaft zur Foerderung der Wissenschaften}},
+  publisher = {Max-Planck-Gesellschaft zur Foerderung der Wissenschaften},
   issn = {14359871, 23637064},
   urldate = {2023-10-10},
   abstract = {BACKGROUND The population pyramid is one of the most popular tools for visualising population age structure. However, it is difficult to discern from the diagram the relative effects of different demographic components on the size of age-specific populations, making it hard to understand exactly how a population's age structure is formed. OBJECTIVE The aim of this paper is to introduce a type of population pyramid which shows how births, deaths, and migration have shaped a population's age structure. DATA AND METHODS Births, deaths, and population data were obtained from the Human Mortality Database and the Australian Bureau of Statistics. A variation on the conventional population pyramid, termed here a components-of-change pyramid, was created. Based on cohort population accounts, it illustrates how births, deaths, and net migration have created the population of each age group. A simple measure which summarises the impact of net migration on age structure is also suggested. RESULTS Example components-of-change pyramids for several countries and subnational regions are presented, which illustrate how births, deaths, and net migration have fashioned current population age structures. The influence of migration is shown to vary greatly between populations. CONCLUSIONS The new type of pyramid aids interpretation of a population's age structure and helps to understand its demographic history over the last century.},
   file = {/home/stephen/Zotero/storage/576NF87A/Wilson - 2016 - Visualising the demographic factors which shape po.pdf}
+}
+
+@article{6766661,
+  title = {Machine-to-Machine Communications with in-Network Data Aggregation, Processing, and Actuation for Large-Scale Cyber-Physical Systems},
+  author = {Stojmenovic, Ivan},
+  year = {2014},
+  month = apr,
+  journal = {IEEE Internet of Things Journal},
+  volume = {1},
+  number = {2},
+  pages = {122--128},
+  issn = {2327-4662},
+  doi = {10.1109/JIOT.2014.2311693},
+  abstract = {Machine-to-Machine (M2M) paradigm enables machines (sensors, actuators, robots, and smart meter readers) to communicate with each other with little or no human intervention. M2M is a key enabling technology for the cyber-physical systems (CPSs). This paper explores CPS beyond M2M concept and looks at futuristic applications. Our vision is CPS with distributed actuation and in-network processing. We describe few particular use cases that motivate the development of the M2M communication primitives tailored to large-scale CPS. M2M communications in literature were considered in limited extent so far. The existing work is based on small-scale M2M models and centralized solutions. Different sources discuss different primitives. Few existing decentralized solutions do not scale well. There is a need to design M2M communication primitives that will scale to thousands and trillions of M2M devices, without sacrificing solution quality. The main paradigm shift is to design localized algorithms, where CPS nodes make decisions based on local knowledge. Localized coordination and communication in networked robotics, for matching events and robots, were studied to illustrate new directions.},
+  keywords = {Cyber-PhysicalSystems(CPSs),IntelligentSensors,LogicGates,Machine-To-Machine(M2M)Communications,Machine-To-MachineCommunication,RobotKinematics,RobotSensingSystems,WirelessSensorNetworks}
 }
 
 @inproceedings{7793413,
@@ -34,7 +132,19 @@
   year = {2016},
   pages = {7046--7051},
   doi = {10.1109/IECON.2016.7793413},
+  file = {/home/stephen/Zotero/storage/69MYJF4W/Marino et al. - 2016 - Building energy load forecasting using deep neural.pdf},
   keywords = {BuildingEnergy,Buildings,ComputerArchitecture,DeepLearning,DeepNeuralNetworks,Energy,EnergyLoadForecasting,LoadForecasting,LoadModeling,LogicGates,Long-Short-TermMemory,LSTM,PredictiveModels,Standards}
+}
+
+@article{8703045,
+  title = {Deep Neural Network Compression Technique towards Efficient Digital Signal Modulation Recognition in Edge Device},
+  author = {Tu, Ya and Lin, Yun},
+  year = {2019},
+  journal = {IEEE access : practical innovations, open solutions},
+  volume = {7},
+  pages = {58113--58119},
+  doi = {10.1109/ACCESS.2019.2913945},
+  keywords = {Convolution,DeepNeuralNetwork,EdgeDevice,FeatureExtraction,FrequencyShiftKeying,ModulationClassification,NetworkPrune,NeuralNetworks,Neurons,SignalToNoiseRatio}
 }
 
 @inproceedings{8806026,
@@ -44,6 +154,7 @@
   year = {2019},
   pages = {66--71},
   doi = {10.1109/ICUFN.2019.8806026},
+  file = {/home/stephen/Zotero/storage/HL5JPKL6/Rashid et al. - 2019 - Machine learning for smart energy monitoring of ho.pdf},
   keywords = {EnergyConsumption,HomeAppliances,Keras,Libraries,LogicGates,LongShort-TermMemory,MachineLearning,Monitoring,Sensors,SmartEnergyMonitoring,Tensorflow}
 }
 
@@ -57,7 +168,41 @@
   pages = {5362--5372},
   doi = {10.1109/JSYST.2020.2996547},
   annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.014Z},
+  file = {/home/stephen/Zotero/storage/NRKVN7P7/Mathew et al. - 2020 - Intelligent residential energy management system u.pdf},
   keywords = {Games,HomeAppliances,LoadModeling,Minimization,Pricing,ReinforcementLearning,ReinforcementLearning(RL),ResidentialEnergyManagement}
+}
+
+@inproceedings{9110987,
+  title = {{{PhD}} Forum Abstract: {{Understanding}} Deep Model Compression for {{IoT}} Devices},
+  booktitle = {2020 19th {{ACM}}/{{IEEE}} International Conference on Information Processing in Sensor Networks ({{IPSN}})},
+  author = {Entezari, Rahim},
+  year = {2020},
+  pages = {385--386},
+  doi = {10.1109/IPSN48710.2020.00067},
+  keywords = {ComputationalModeling,DeepLearning,DeepNeuralNetworks,InformationProcessing,InternetOfThings,ModelCompression,NeuralNetworks,Training}
+}
+
+@article{9534870,
+  title = {{{DNN}} Model Compression for {{IoT}} Domain-Specific Hardware Accelerators},
+  author = {Russo, Enrico and Palesi, Maurizio and Monteleone, Salvatore and Patti, Davide and Mineo, Andrea and Ascia, Giuseppe and Catania, Vincenzo},
+  year = {2022},
+  journal = {IEEE Internet of Things Journal},
+  volume = {9},
+  number = {9},
+  pages = {6650--6662},
+  doi = {10.1109/JIOT.2021.3111723},
+  keywords = {ComputationalModeling,DeepNeuralNetwork(DNN)Accelerator,DNNModelCompression,Domain-SpecificAccelerator,EnergyVersusPerformanceVersusAccuracyTradeoff,HardwareAcceleration,InternetOfThings,MemoryManagement,Microcontrollers,NeuralNetworks,Quantization(Signal),System-On-Chip}
+}
+
+@article{9785622,
+  title = {Hardware-Assisted Machine Learning in Resource-Constrained {{IoT}} Environments for Security: {{Review}} and Future Prospective},
+  author = {Kornaros, Georgios},
+  year = {2022},
+  journal = {IEEE access : practical innovations, open solutions},
+  volume = {10},
+  pages = {58603--58622},
+  doi = {10.1109/ACCESS.2022.3179047},
+  keywords = {AI-BasedIoTSecurity,Cryptography,Hardware,Hardware-BasedMachineLearning,InternetOfThings,IoTIntrusionDetection,MachineLearning,Malware,Microprogramming,Security,TrustedEmbeddedDevices}
 }
 
 @article{abukmeilSurveyUnsupervisedGenerative2022,
@@ -103,8 +248,8 @@
   year = {2019},
   month = jul,
   pages = {1--7},
-  publisher = {{IEEE}},
-  address = {{Milan, Italy}},
+  publisher = {IEEE},
+  address = {Milan, Italy},
   doi = {10.1109/EDGE.2019.00014},
   urldate = {2024-02-27},
   isbn = {978-1-72812-708-8}
@@ -169,7 +314,7 @@
   number = {arXiv:2108.09457},
   eprint = {2108.09457},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2024-02-27},
   abstract = {EdgeAI (Edge computing based Artificial Intelligence) has been most actively researched for the last few years to handle variety of massively distributed AI applications to meet up the strict latency requirements. Meanwhile, many companies have released edge devices with smaller form factors (low power consumption and limited resources) like the popular Raspberry Pi and Nvidia's Jetson Nano for acting as compute nodes at the edge computing environments. Although the edge devices are limited in terms of computing power and hardware resources, they are powered by accelerators to enhance their performance behavior. Therefore, it is interesting to see how AI-based Deep Neural Networks perform on such devices with limited resources. In this work, we present and compare the performance in terms of inference time and power consumption of the four Systems on a Chip (SoCs): Asus Tinker Edge R, Raspberry Pi 4, Google Coral Dev Board, Nvidia Jetson Nano, and one microcontroller: Arduino Nano 33 BLE, on different deep learning models and frameworks. We also provide a method for measuring power consumption, inference time and accuracy for the devices, which can be easily extended to other devices. Our results showcase that, for Tensorflow based quantized model, the Google Coral Dev Board delivers the best performance, both for inference time and power consumption. For a low fraction of inference computation time, i.e. less than 29.3\% of the time for MobileNetV2, the Jetson Nano performs faster than the other devices.},
   archiveprefix = {arxiv},
@@ -186,7 +331,7 @@
   number = {arXiv:2108.09457},
   eprint = {2108.09457},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2024-02-27},
   abstract = {EdgeAI (Edge computing based Artificial Intelligence) has been most actively researched for the last few years to handle variety of massively distributed AI applications to meet up the strict latency requirements. Meanwhile, many companies have released edge devices with smaller form factors (low power consumption and limited resources) like the popular Raspberry Pi and Nvidia's Jetson Nano for acting as compute nodes at the edge computing environments. Although the edge devices are limited in terms of computing power and hardware resources, they are powered by accelerators to enhance their performance behavior. Therefore, it is interesting to see how AI-based Deep Neural Networks perform on such devices with limited resources. In this work, we present and compare the performance in terms of inference time and power consumption of the four Systems on a Chip (SoCs): Asus Tinker Edge R, Raspberry Pi 4, Google Coral Dev Board, Nvidia Jetson Nano, and one microcontroller: Arduino Nano 33 BLE, on different deep learning models and frameworks. We also provide a method for measuring power consumption, inference time and accuracy for the devices, which can be easily extended to other devices. Our results showcase that, for Tensorflow based quantized model, the Google Coral Dev Board delivers the best performance, both for inference time and power consumption. For a low fraction of inference computation time, i.e. less than 29.3\% of the time for MobileNetV2, the Jetson Nano performs faster than the other devices.},
   archiveprefix = {arxiv},
@@ -202,7 +347,7 @@
   number = {arXiv:1408.6595},
   eprint = {1408.6595},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2024-03-11},
   abstract = {Non intrusive load monitoring (NILM), or energy disaggregation, is the process of separating the total electricity consumption of a building as measured at single point into the building's constituent loads. Previous research in the field has mostly focused on residential buildings, and although the potential benefits of applying this technology to commercial buildings have been recognised since the field's conception, NILM in the commercial domain has been largely unexplored by the academic community. As a result of the heterogeneity of this section of the building stock (i.e., encompassing buildings as diverse as airports, malls and coffee shops), and hence the loads within them, many of the solutions developed for residential energy disaggregation do not apply directly. In this paper we highlight some insights for NILM in the commercial domain using data collected from a large smart meter deployment within an educational campus in Delhi, India, of which a subset of the data has been released for public use. We present an empirical characterisation of loads in commercial buildings, highlighting the differences in energy consumption and load characteristics between residential and commercial buildings. We assess the validity of the assumptions generally made by NILM solutions for residential buildings when applied to measurements from commercial facilities. Based on our observations, we discuss the required traits for a NILM system for commercial buildings, and run benchmark residential NILM algorithms on our data set to confirm our observations. To advance the research in commercial buildings energy disaggregation, we release a subset of our data set, called COMBED (commercial building energy data set).},
   archiveprefix = {arxiv},
@@ -235,6 +380,22 @@
   file = {/home/stephen/Zotero/storage/X8HSFH2E/Bertsimas et al. - 2017 - From predictive methods to missing data imputation.pdf}
 }
 
+@misc{bhardwajMemoryCommunicationAwareModel2019,
+  title = {Memory- and {{Communication-Aware Model Compression}} for {{Distributed Deep Learning Inference}} on {{IoT}}},
+  author = {Bhardwaj, Kartikeya and Lin, Chingyi and Sartor, Anderson and Marculescu, Radu},
+  year = {2019},
+  month = jul,
+  number = {arXiv:1907.11804},
+  eprint = {1907.11804},
+  primaryclass = {cs, stat},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {Model compression has emerged as an important area of research for deploying deep learning models on Internet-of-Things (IoT). However, for extremely memory-constrained scenarios, even the compressed models cannot fit within the memory of a single device and, as a result, must be distributed across multiple devices. This leads to a distributed inference paradigm in which memory and communication costs represent a major bottleneck. Yet, existing model compression techniques are not communication-aware. Therefore, we propose Network of Neural Networks (NoNN), a new distributed IoT learning paradigm that compresses a large pretrained 'teacher' deep network into several disjoint and highly-compressed 'student' modules, without loss of accuracy. Moreover, we propose a network science-based knowledge partitioning algorithm for the teacher model, and then train individual students on the resulting disjoint partitions. Extensive experimentation on five image classification datasets, for user-defined memory/performance budgets, show that NoNN achieves higher accuracy than several baselines and similar accuracy as the teacher model, while using minimal communication among students. Finally, as a case study, we deploy the proposed model for CIFAR-10 dataset on edge devices and demonstrate significant improvements in memory footprint (up to 24x), performance (up to 12x), and energy per node (up to 14x) compared to the large teacher model. We further show that for distributed inference on multiple edge devices, our proposed NoNN model results in up to 33x reduction in total latency w.r.t. a state-of-the-art model compression baseline.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/BC9LI8CX/Bhardwaj et al. - 2019 - Memory- and Communication-Aware Model Compression .pdf;/home/stephen/Zotero/storage/8A2BBS4J/1907.html},
+  keywords = {ComputerScience-ComputerVisionAndPatternRecognition,ComputerScience-DistributedParallelAndClusterComputing,ComputerScience-MachineLearning,Statistics-MachineLearning}
+}
+
 @article{Bonetto2017MachineLA,
   title = {Machine Learning Approaches to Energy Consumption Forecasting in Households},
   author = {Bonetto, Riccardo and Rossi, Michele},
@@ -247,12 +408,13 @@
   title = {Machine {{Learning Approaches}} to {{Energy Consumption Forecasting}} in {{Households}}},
   author = {Bonetto, Riccardo and Rossi, Michele},
   year = {2017},
-  publisher = {{[object Object]}},
+  publisher = {[object Object]},
   doi = {10.48550/ARXIV.1706.09648},
   urldate = {2024-04-01},
   abstract = {We consider the problem of power demand forecasting in residential micro-grids. Several approaches using ARMA models, support vector machines, and recurrent neural networks that perform one-step ahead predictions have been proposed in the literature. Here, we extend them to perform multi-step ahead forecasting and we compare their performance. Toward this end, we implement a parallel and efficient training framework, using power demand traces from real deployments to gauge the accuracy of the considered techniques. Our results indicate that machine learning schemes achieve smaller prediction errors in the mean and the variance with respect to ARMA, but there is no clear algorithm of choice among them. Pros and cons of these approaches are discussed and the solution of choice is found to depend on the specific use case requirements. A hybrid approach, that is driven by the prediction interval, the target error, and its uncertainty, is then recommended.},
   copyright = {arXiv.org perpetual, non-exclusive license},
   annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.009Z},
+  file = {/home/stephen/Zotero/storage/SQGUE7DP/Bonetto and Rossi - 2017 - Machine Learning Approaches to Energy Consumption .pdf},
   keywords = {FOS:ComputerAndInformationSciences,NeuralAndEvolutionaryComputing(Cs.NE)}
 }
 
@@ -265,7 +427,7 @@
   number = {arXiv:1309.0238},
   eprint = {1309.0238},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2023-09-22},
   abstract = {Scikit-learn is an increasingly popular machine learning li- brary. Written in Python, it is designed to be simple and efficient, accessible to non-experts, and reusable in various contexts. In this paper, we present and discuss our design choices for the application programming interface (API) of the project. In particular, we describe the simple and elegant interface shared by all learning and processing units in the library and then discuss its advantages in terms of composition and reusability. The paper also comments on implementation details specific to the Python ecosystem and analyzes obstacles faced by users and developers of the library.},
   archiveprefix = {arxiv},
@@ -279,8 +441,8 @@
   author = {Burger, Scott V.},
   year = {2018},
   edition = {First edition},
-  publisher = {{O'Reilly}},
-  address = {{Beijing Boston Farnham Sebastopol Tokyo}},
+  publisher = {O'Reilly},
+  address = {Beijing Boston Farnham Sebastopol Tokyo},
   abstract = {Machine learning can be a difficult subject if you're not familiar with the basics. With this book, you'll get a solid foundation of introductory principles used in machine learning with the statistical programming language R. You'll start with the basics like regression, then move into more advanced topics like neural networks, and finally delve into the frontier of machine learning in the R world with packages like Caret. By developing a familiarity with topics like understanding the difference between regression and classification models, you'll be able to solve an array of machine learning problems. Knowing when to use a specific model or not can mean the difference between a highly accurate model and a completely useless one. This book provides copious examples to build a working knowledge of machine learning. Understand the major parts of machine learning algorithms Recognize how machine learning can be used to solve a problem in a simple manner Figure out when to use certain machine learning algorithms versus others Learn how to operationalize algorithms with cutting edge packages},
   isbn = {978-1-4919-7644-9},
   langid = {english},
@@ -291,8 +453,8 @@
   title = {The Hundred-Page Machine Learning Book},
   author = {Burkov, Andriy},
   year = {2019},
-  publisher = {{Andriy Burkov}},
-  address = {{Polen}},
+  publisher = {Andriy Burkov},
+  address = {Polen},
   isbn = {978-1-9995795-0-0 978-1-9995795-1-7},
   langid = {english}
 }
@@ -303,8 +465,8 @@
   author = {Burnham, Kenneth P. and Anderson, David Raymond and Burnham, Kenneth P.},
   year = {2002},
   edition = {2nd ed},
-  publisher = {{Springer}},
-  address = {{New York}},
+  publisher = {Springer},
+  address = {New York},
   isbn = {978-0-387-95364-9},
   lccn = {QH323.5 .B87 2002},
   annotation = {OCLC: ocm48557578},
@@ -358,6 +520,22 @@
   urldate = {2023-10-14},
   langid = {english},
   file = {/home/stephen/Zotero/storage/7BYV3XHJ/1-s2.0-S0160412019304404-main.pdf;/home/stephen/Zotero/storage/7SGFJ7I2/Chen et al. - 2019 - A comparison of linear regression, regularization,.pdf}
+}
+
+@misc{chengSurveyModelCompression2020,
+  title = {A {{Survey}} of {{Model Compression}} and {{Acceleration}} for {{Deep Neural Networks}}},
+  author = {Cheng, Yu and Wang, Duo and Zhou, Pan and Zhang, Tao},
+  year = {2020},
+  month = jun,
+  number = {arXiv:1710.09282},
+  eprint = {1710.09282},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {Deep neural networks (DNNs) have recently achieved great success in many visual recognition tasks. However, existing deep neural network models are computationally expensive and memory intensive, hindering their deployment in devices with low memory resources or in applications with strict latency requirements. Therefore, a natural thought is to perform model compression and acceleration in deep networks without significantly decreasing the model performance. During the past five years, tremendous progress has been made in this area. In this paper, we review the recent techniques for compacting and accelerating DNN models. In general, these techniques are divided into four categories: parameter pruning and quantization, low-rank factorization, transferred/compact convolutional filters, and knowledge distillation. Methods of parameter pruning and quantization are described first, after that the other techniques are introduced. For each category, we also provide insightful analysis about the performance, related applications, advantages, and drawbacks. Then we go through some very recent successful methods, for example, dynamic capacity networks and stochastic depths networks. After that, we survey the evaluation matrices, the main datasets used for evaluating the model performance, and recent benchmark efforts. Finally, we conclude this paper, discuss remaining the challenges and possible directions for future work.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/U49JZL26/Cheng et al. - 2020 - A Survey of Model Compression and Acceleration for.pdf;/home/stephen/Zotero/storage/EZXQ3IQU/1710.html},
+  keywords = {ComputerScience-ComputerVisionAndPatternRecognition,ComputerScience-MachineLearning}
 }
 
 @inproceedings{chenXGBoostScalableTree2016,
@@ -446,7 +624,7 @@
   number = {arXiv:1802.08621},
   eprint = {1802.08621},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2023-09-22},
   abstract = {Effective data analysis ideally requires the analyst to have high expertise as well as high knowledge of the data. Even with such familiarity, manually pursuing all potential hypotheses and exploring all possible views is impractical. We present DataSite, a proactive visual analytics system where the burden of selecting and executing appropriate computations is shared by an automatic server-side computation engine. Salient features identified by these automatic background processes are surfaced as notifications in a feed timeline. DataSite effectively turns data analysis into a conversation between analyst and computer, thereby reducing the cognitive load and domain knowledge requirements. We validate the system with a user study comparing it to a recent visualization recommendation system, yielding significant improvement, particularly for complex analyses that existing analytics systems do not support well.},
   archiveprefix = {arxiv},
@@ -459,8 +637,8 @@
   shorttitle = {Statistics for Machine Learning},
   author = {Dangeti, Pratap},
   year = {2017},
-  publisher = {{Packt Publishing}},
-  address = {{Birmingham, UK}},
+  publisher = {Packt Publishing},
+  address = {Birmingham, UK},
   isbn = {978-1-78829-575-8},
   langid = {english},
   file = {/home/stephen/Zotero/storage/ABA8TNW4/Dangeti - 2017 - Statistics for machine learning techniques for ex.pdf}
@@ -509,8 +687,8 @@
   year = {2019},
   month = jun,
   pages = {317--332},
-  publisher = {{ACM}},
-  address = {{Amsterdam Netherlands}},
+  publisher = {ACM},
+  address = {Amsterdam Netherlands},
   doi = {10.1145/3299869.3314037},
   urldate = {2023-09-22},
   isbn = {978-1-4503-5643-5},
@@ -525,8 +703,8 @@
   year = {2012},
   series = {Probability and Statistics for Programmers},
   edition = {1. ed., 4. release},
-  publisher = {{O'Reilly}},
-  address = {{Beijing}},
+  publisher = {O'Reilly},
+  address = {Beijing},
   isbn = {978-1-4493-0711-0},
   langid = {english},
   file = {/home/stephen/Zotero/storage/J8WTXV5R/Downey - 2012 - Think stats.pdf}
@@ -559,8 +737,8 @@
   year = {2016},
   month = may,
   pages = {636--654},
-  publisher = {{IEEE}},
-  address = {{San Jose, CA}},
+  publisher = {IEEE},
+  address = {San Jose, CA},
   doi = {10.1109/SP.2016.44},
   urldate = {2024-04-02},
   isbn = {978-1-5090-0824-7}
@@ -596,7 +774,7 @@
   urldate = {2024-04-01},
   abstract = {With population increases and a vital need for energy, energy systems play an important and decisive role in all of the sectors of society. To accelerate the process and improve the methods of responding to this increase in energy demand, the use of models and algorithms based on artificial intelligence has become common and mandatory. In the present study, a comprehensive and detailed study has been conducted on the methods and applications of Machine Learning (ML) and Deep Learning (DL), which are the newest and most practical models based on Artificial Intelligence (AI) for use in energy systems. It should be noted that due to the development of DL algorithms, which are usually more accurate and less error, the use of these algorithms increases the ability of the model to solve complex problems in this field. In this article, we have tried to examine DL algorithms that are very powerful in problem solving but have received less attention in other studies, such as RNN, ANFIS, RBN, DBN, WNN, and so on. This research uses knowledge discovery in research databases to understand ML and DL applications in energy systems' current status and future. Subsequently, the critical areas and research gaps are identified. In addition, this study covers the most common and efficient applications used in this field; optimization, forecasting, fault detection, and other applications of energy systems are investigated. Attempts have also been made to cover most of the algorithms and their evaluation metrics, including not only algorithms that are more important, but also newer ones that have received less attention.},
   langid = {english},
-  file = {/home/stephen/Zotero/storage/PGUNN4Z8/Forootan et al. - 2022 - Machine Learning and Deep Learning in Energy Syste.pdf}
+  file = {/home/stephen/Zotero/storage/KKIZAV7C/sustainability2.pdf;/home/stephen/Zotero/storage/PGUNN4Z8/Forootan et al. - 2022 - Machine Learning and Deep Learning in Energy Syste.pdf}
 }
 
 @book{frostjimRegressionAnalysisIntuitive2020,
@@ -613,7 +791,8 @@
   journal = {CAAI Trans. Intell. Technol.},
   volume = {7},
   pages = {1--25},
-  annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.010Z}
+  annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.010Z},
+  file = {/home/stephen/Zotero/storage/AXKSWAMU/Gasparin et al. - 2019 - Deep learning for time series forecasting The ele.pdf}
 }
 
 @book{geronHandsonMachineLearning2019,
@@ -622,12 +801,29 @@
   author = {G{\'e}ron, Aur{\'e}lien},
   year = {2019},
   edition = {Second edition},
-  publisher = {{O'Reilly Media, Inc}},
-  address = {{Beijing [China] ; Sebastopol, CA}},
+  publisher = {O'Reilly Media, Inc},
+  address = {Beijing [China] ; Sebastopol, CA},
   isbn = {978-1-4920-3264-9},
   lccn = {QA76.73.P98 G45 2019},
   file = {/home/stephen/Zotero/storage/E8USP4M9/Géron - 2019 - Hands-on machine learning with Scikit-Learn, Keras.pdf},
   keywords = {ArtificialIntelligence,MachineLearning,Python(ComputerProgramLanguage),TensorFlow}
+}
+
+@misc{guLosslessCompressionDeep2024,
+  title = {"{{Lossless}}" {{Compression}} of {{Deep Neural Networks}}: {{A High-dimensional Neural Tangent Kernel Approach}}},
+  shorttitle = {"{{Lossless}}" {{Compression}} of {{Deep Neural Networks}}},
+  author = {Gu, Lingyu and Du, Yongqi and Zhang, Yuan and Xie, Di and Pu, Shiliang and Qiu, Robert C. and Liao, Zhenyu},
+  year = {2024},
+  month = feb,
+  number = {arXiv:2403.00258},
+  eprint = {2403.00258},
+  primaryclass = {cs, stat},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {Modern deep neural networks (DNNs) are extremely powerful; however, this comes at the price of increased depth and having more parameters per layer, making their training and inference more computationally challenging. In an attempt to address this key limitation, efforts have been devoted to the compression (e.g., sparsification and/or quantization) of these large-scale machine learning models, so that they can be deployed on low-power IoT devices. In this paper, building upon recent advances in neural tangent kernel (NTK) and random matrix theory (RMT), we provide a novel compression approach to wide and fully-connected {\textbackslash}emph\{deep\} neural nets. Specifically, we demonstrate that in the high-dimensional regime where the number of data points \$n\$ and their dimension \$p\$ are both large, and under a Gaussian mixture model for the data, there exists {\textbackslash}emph\{asymptotic spectral equivalence\} between the NTK matrices for a large family of DNN models. This theoretical result enables "lossless" compression of a given DNN to be performed, in the sense that the compressed network yields asymptotically the same NTK as the original (dense and unquantized) network, with its weights and activations taking values {\textbackslash}emph\{only\} in \${\textbackslash}\{ 0, {\textbackslash}pm 1 {\textbackslash}\}\$ up to a scaling. Experiments on both synthetic and real-world data are conducted to support the advantages of the proposed compression scheme, with code available at {\textbackslash}url\{https://github.com/Model-Compression/Lossless\_Compression\}.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/5B3AVYHF/Gu et al. - 2024 - Lossless Compression of Deep Neural Networks A .pdf;/home/stephen/Zotero/storage/KVL27GV5/2403.html},
+  keywords = {ComputerScience-MachineLearning,Statistics-MachineLearning}
 }
 
 @book{hainesModernDataEngineering2022,
@@ -635,8 +831,8 @@
   shorttitle = {Modern {{Data Engineering}} with {{Apache Spark}}},
   author = {Haines, Scott},
   year = {2022},
-  publisher = {{Apress}},
-  address = {{Berkeley, CA}},
+  publisher = {Apress},
+  address = {Berkeley, CA},
   doi = {10.1007/978-1-4842-7452-1},
   urldate = {2024-03-05},
   isbn = {978-1-4842-7451-4 978-1-4842-7452-1},
@@ -656,14 +852,30 @@
   issn = {2327-4662, 2372-2541},
   doi = {10.1109/JIOT.2020.3013306},
   urldate = {2024-04-01},
-  file = {/home/stephen/Zotero/storage/MHQADN9E/Han et al. - 2021 - An Efficient Deep Learning Framework for Intellige.pdf}
+  file = {/home/stephen/Zotero/storage/FK6FIUUF/EnergyManagementinIoTSetup.pdf;/home/stephen/Zotero/storage/MHQADN9E/Han et al. - 2021 - An Efficient Deep Learning Framework for Intellige.pdf}
+}
+
+@article{hanEfficientDeepLearning2021a,
+  title = {An {{Efficient Deep Learning Framework}} for {{Intelligent Energy Management}} in {{IoT Networks}}},
+  author = {Han, Tao and Muhammad, Khan and Hussain, Tanveer and Lloret, Jaime and Baik, Sung Wook},
+  year = {2021},
+  month = mar,
+  journal = {IEEE Internet of Things Journal},
+  volume = {8},
+  number = {5},
+  pages = {3170--3179},
+  issn = {2327-4662, 2372-2541},
+  doi = {10.1109/JIOT.2020.3013306},
+  urldate = {2024-04-05},
+  copyright = {https://creativecommons.org/licenses/by/4.0/legalcode},
+  file = {/home/stephen/Zotero/storage/GXJFCM3X/Han et al. - 2021 - An Efficient Deep Learning Framework for Intellige.pdf}
 }
 
 @article{hassanatSolvingProblemParameter2014,
   title = {Solving the {{Problem}} of the {{K Parameter}} in the {{KNN Classifier Using}} an {{Ensemble Learning Approach}}},
   author = {Hassanat, Ahmad Basheer and Abbadi, Mohammad Ali and Altarawneh, Ghada Awad and Alhasanat, Ahmad Ali},
   year = {2014},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   doi = {10.48550/ARXIV.1409.0919},
   urldate = {2023-09-28},
   abstract = {This paper presents a new solution for choosing the K parameter in the k-nearest neighbor (KNN) algorithm, the solution depending on the idea of ensemble learning, in which a weak KNN classifier is used each time with a different K, starting from one to the square root of the size of the training set. The results of the weak classifiers are combined using the weighted sum rule. The proposed solution was tested and compared to other solutions using a group of experiments in real life problems. The experimental results show that the proposed classifier outperforms the traditional KNN classifier that uses a different number of neighbors, is competitive with other classifiers, and is a promising classifier with strong potential for a wide range of applications.},
@@ -679,8 +891,8 @@
   year = {2017},
   series = {Springer Series in Statistics},
   edition = {Second edition, corrected at 12th printing 2017},
-  publisher = {{Springer}},
-  address = {{New York, NY}},
+  publisher = {Springer},
+  address = {New York, NY},
   doi = {10.1007/b94608},
   isbn = {978-0-387-84857-0},
   langid = {english},
@@ -695,8 +907,8 @@
   year = {2022},
   month = apr,
   pages = {1860--1870},
-  publisher = {{ACM}},
-  address = {{Virtual Event, Lyon France}},
+  publisher = {ACM},
+  address = {Virtual Event, Lyon France},
   doi = {10.1145/3485447.3511990},
   urldate = {2024-02-27},
   isbn = {978-1-4503-9096-5},
@@ -709,13 +921,29 @@
   year = {2014}
 }
 
+@article{hochreiterLongShortTermMemory1997,
+  title = {Long {{Short-Term Memory}}},
+  author = {Hochreiter, Sepp and Schmidhuber, J{\"u}rgen},
+  year = {1997},
+  month = nov,
+  journal = {Neural Computation},
+  volume = {9},
+  number = {8},
+  pages = {1735--1780},
+  issn = {0899-7667, 1530-888X},
+  doi = {10.1162/neco.1997.9.8.1735},
+  urldate = {2024-04-05},
+  abstract = {Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.},
+  langid = {english}
+}
+
 @techreport{huddeItMobilityCulture2022,
   type = {Preprint},
   title = {It's the Mobility Culture, Stupid! {{Winter}} Conditions Strongly Reduce Bicycle Usage in {{German}} Cities, but Not in {{Dutch}} Ones},
   author = {Hudde, Ansgar},
   year = {2022},
   month = may,
-  institution = {{SocArXiv}},
+  institution = {SocArXiv},
   doi = {10.31235/osf.io/yejxf},
   urldate = {2024-01-03},
   abstract = {Cycling is healthy, cheap, and environmentally sustainable, but these benefits remain unexploited if many people only cycle in summer but not in winter. Seasonal differences in cycling are small in Dutch cities but relatively large in German cities. This paper tests: is it because seasonal conditions are more moderate in the Netherlands or because German cyclists are more sensitive to temperature, rain, and daylight hours? After discussing how German culture mirrors and potentially perpetuates seasonal cycling patterns, I analyse around 335,000 trips from German and Dutch travel surveys enriched with city-level climate data. Results show that Germans react about twice as strongly to changes in temperature and daylight hours than the Dutch. This reveals untapped potential for year-round cycling in Germany, with its benefits for health, finances and sustainability: The barrier is not the natural environment, but people's response to it, which could potentially change and be influenced by policy.},
@@ -735,7 +963,7 @@
   doi = {10.1080/08839514.2022.2037255},
   urldate = {2024-04-01},
   langid = {english},
-  file = {/home/stephen/Zotero/storage/DTBSSKX8/Humayun et al. - 2022 - Energy Optimization for Smart Cities Using IoT.pdf}
+  file = {/home/stephen/Zotero/storage/DTBSSKX8/Humayun et al. - 2022 - Energy Optimization for Smart Cities Using IoT.pdf;/home/stephen/Zotero/storage/YXJ2XC32/Energy Optimization for Smart Cities Using IoT.pdf}
 }
 
 @misc{huttoVaderSentimentHttpsVadersentiment2023,
@@ -745,14 +973,47 @@
   urldate = {2023-12-30}
 }
 
+@misc{ishtiaqModelCompression2021,
+  title = {Model {{Compression}}},
+  author = {Ishtiaq, Arhum and Mahmood, Sara and Anees, Maheen and Mumtaz, Neha},
+  year = {2021},
+  month = sep,
+  number = {arXiv:2105.10059},
+  eprint = {2105.10059},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {With time, machine learning models have increased in their scope, functionality and size. Consequently, the increased functionality and size of such models requires high-end hardware to both train and provide inference after the fact. This paper aims to explore the possibilities within the domain of model compression, discuss the efficiency of combining various levels of pruning and quantization, while proposing a quality measurement metric to objectively decide which combination is best in terms of minimizing the accuracy delta and maximizing the size reduction factor.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/6H6Y876W/Ishtiaq et al. - 2021 - Model Compression.pdf;/home/stephen/Zotero/storage/J69RIQTT/2105.html},
+  keywords = {ComputerScience-MachineLearning}
+}
+
+@misc{jadhavFederatedLearningIoT2023,
+  title = {Federated {{Learning}} in {{IoT}}: A {{Survey}} from a {{Resource-Constrained Perspective}}},
+  shorttitle = {Federated {{Learning}} in {{IoT}}},
+  author = {Jadhav, Ishmeet Kaur andAdwaita Janardhan},
+  year = {2023},
+  month = aug,
+  number = {arXiv:2308.13157},
+  eprint = {2308.13157},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  urldate = {2024-04-12},
+  abstract = {The IoT ecosystem is able to leverage vast amounts of data for intelligent decision-making. Federated Learning (FL), a decentralized machine learning technique, is widely used to collect and train machine learning models from a variety of distributed data sources. Both IoT and FL systems can be complementary and used together. However, the resource-constrained nature of IoT devices prevents the widescale deployment FL in the real world. This research paper presents a comprehensive survey of the challenges and solutions associated with implementing Federated Learning (FL) in resource-constrained Internet of Things (IoT) environments, viewed from 2 levels, client and server. We focus on solutions regarding limited client resources, presence of heterogeneous client data, server capacity, and high communication costs, and assess their effectiveness in various scenarios. Furthermore, we categorize the solutions based on the location of their application, i.e., the IoT client, and the FL server. In addition to a comprehensive review of existing research and potential future directions, this paper also presents new evaluation metrics that would allow researchers to evaluate their solutions on resource-constrained IoT devices.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/DCNWGPDD/Jadhav - 2023 - Federated Learning in IoT a Survey from a Resourc.pdf;/home/stephen/Zotero/storage/8ANCULDN/2308.html},
+  keywords = {ComputerScience-DistributedParallelAndClusterComputing,ComputerScience-MachineLearning}
+}
+
 @book{jamesIntroductionStatisticalLearning2013,
   title = {An {{Introduction}} to {{Statistical Learning}}},
   author = {James, Gareth and Witten, Daniela and Hastie, Trevor and Tibshirani, Robert},
   year = {2013},
   series = {Springer {{Texts}} in {{Statistics}}},
   volume = {103},
-  publisher = {{Springer New York}},
-  address = {{New York, NY}},
+  publisher = {Springer New York},
+  address = {New York, NY},
   doi = {10.1007/978-1-4614-7138-7},
   urldate = {2023-09-20},
   isbn = {978-1-4614-7137-0 978-1-4614-7138-7},
@@ -766,8 +1027,8 @@
   editor = {Bretthorst, G. L.},
   year = {2021},
   edition = {24th printing},
-  publisher = {{Cambridge Univ. Press}},
-  address = {{Cambridge}},
+  publisher = {Cambridge Univ. Press},
+  address = {Cambridge},
   isbn = {978-0-521-59271-0},
   langid = {english}
 }
@@ -795,6 +1056,12 @@
   langid = {english}
 }
 
+@techreport{jrimmeltFutureElectricityDigital2015,
+  title = {The {{Future}} of {{Electricity Is Digital}}},
+  author = {{JR Immelt}},
+  year = {2015}
+}
+
 @inproceedings{kahramanHomeEnergyManagement2022,
   title = {Home {{Energy Management System}} Based on {{Deep Reinforcement Learning Algorithms}}},
   booktitle = {2022 {{IEEE PES Innovative Smart Grid Technologies Conference Europe}} ({{ISGT-Europe}})},
@@ -802,13 +1069,13 @@
   year = {2022},
   month = oct,
   pages = {1--5},
-  publisher = {{IEEE}},
-  address = {{Novi Sad, Serbia}},
+  publisher = {IEEE},
+  address = {Novi Sad, Serbia},
   doi = {10.1109/ISGT-Europe54678.2022.9960575},
   urldate = {2024-04-01},
   isbn = {978-1-66548-032-1},
   annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.016Z},
-  file = {/home/stephen/Zotero/storage/MRIQVDNM/Kahraman and Yang - 2022 - Home Energy Management System based on Deep Reinfo.pdf}
+  file = {/home/stephen/Zotero/storage/C7MLNDIG/Conference_ISGT_AysegulKahraman.pdf;/home/stephen/Zotero/storage/MRIQVDNM/Kahraman and Yang - 2022 - Home Energy Management System based on Deep Reinfo.pdf}
 }
 
 @article{koumarelasDataPreparationDuplicate2020,
@@ -843,8 +1110,8 @@
   shorttitle = {Discovering Knowledge in Data},
   author = {Larose, Daniel T.},
   year = {2005},
-  publisher = {{Wiley-Interscience}},
-  address = {{Hoboken, NJ}},
+  publisher = {Wiley-Interscience},
+  address = {Hoboken, NJ},
   isbn = {978-0-471-66657-8},
   langid = {english},
   file = {/home/stephen/Zotero/storage/699LC4WH/(Wiley Series on Methods and Applications in Data Mining) Daniel T. Larose, Chantel D. Larose - Discovering Knowledge in data An Introduction to Data Mining-Wiley ( 2014).pdf;/home/stephen/Zotero/storage/6MN277H8/Larose - 2005 - Discovering knowledge in data an introduction to .pdf}
@@ -862,6 +1129,23 @@
   keywords = {Bayesian,CategoricalData,DataCleaning,Imputation,MissingData}
 }
 
+@misc{liebenweinCompressingNeuralNetworks2021,
+  title = {Compressing {{Neural Networks}}: {{Towards Determining}} the {{Optimal Layer-wise Decomposition}}},
+  shorttitle = {Compressing {{Neural Networks}}},
+  author = {Liebenwein, Lucas and Maalouf, Alaa and Gal, Oren and Feldman, Dan and Rus, Daniela},
+  year = {2021},
+  month = nov,
+  number = {arXiv:2107.11442},
+  eprint = {2107.11442},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {We present a novel global compression framework for deep neural networks that automatically analyzes each layer to identify the optimal per-layer compression ratio, while simultaneously achieving the desired overall compression. Our algorithm hinges on the idea of compressing each convolutional (or fully-connected) layer by slicing its channels into multiple groups and decomposing each group via low-rank decomposition. At the core of our algorithm is the derivation of layer-wise error bounds from the Eckart Young Mirsky theorem. We then leverage these bounds to frame the compression problem as an optimization problem where we wish to minimize the maximum compression error across layers and propose an efficient algorithm towards a solution. Our experiments indicate that our method outperforms existing low-rank compression approaches across a wide range of networks and data sets. We believe that our results open up new avenues for future research into the global performance-size trade-offs of modern neural networks. Our code is available at https://github.com/lucaslie/torchprune.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/N2T4Z3H7/Liebenwein et al. - 2021 - Compressing Neural Networks Towards Determining t.pdf;/home/stephen/Zotero/storage/I6852L3K/2107.html},
+  keywords = {ComputerScience-ArtificialIntelligence,ComputerScience-ComputerVisionAndPatternRecognition,ComputerScience-MachineLearning}
+}
+
 @inproceedings{linBigIN4InstantInteractive2018,
   title = {{{BigIN4}}: {{Instant}}, {{Interactive Insight Identification}} for {{Multi-Dimensional Big Data}}},
   shorttitle = {{{BigIN4}}},
@@ -870,8 +1154,8 @@
   year = {2018},
   month = jul,
   pages = {547--555},
-  publisher = {{ACM}},
-  address = {{London United Kingdom}},
+  publisher = {ACM},
+  address = {London United Kingdom},
   doi = {10.1145/3219819.3219867},
   urldate = {2023-09-22},
   isbn = {978-1-4503-5552-0},
@@ -910,6 +1194,23 @@
   file = {/home/stephen/Zotero/storage/EIFNMI7R/Li et al. - 2021 - Random sketch learning for deep neural networks in.pdf}
 }
 
+@misc{liuLightweightDeepLearning2024,
+  title = {Lightweight {{Deep Learning}} for {{Resource-Constrained Environments}}: {{A Survey}}},
+  shorttitle = {Lightweight {{Deep Learning}} for {{Resource-Constrained Environments}}},
+  author = {Liu, Hou-I. and Galindo, Marco and Xie, Hongxia and Wong, Lai-Kuan and Shuai, Hong-Han and Li, Yung-Hui and Cheng, Wen-Huang},
+  year = {2024},
+  month = apr,
+  number = {arXiv:2404.07236},
+  eprint = {2404.07236},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {Over the past decade, the dominance of deep learning has prevailed across various domains of artificial intelligence, including natural language processing, computer vision, and biomedical signal processing. While there have been remarkable improvements in model accuracy, deploying these models on lightweight devices, such as mobile phones and microcontrollers, is constrained by limited resources. In this survey, we provide comprehensive design guidance tailored for these devices, detailing the meticulous design of lightweight models, compression methods, and hardware acceleration strategies. The principal goal of this work is to explore methods and concepts for getting around hardware constraints without compromising the model's accuracy. Additionally, we explore two notable paths for lightweight deep learning in the future: deployment techniques for TinyML and Large Language Models. Although these paths undoubtedly have potential, they also present significant challenges, encouraging research into unexplored areas.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/QZPZJ32L/Liu et al. - 2024 - Lightweight Deep Learning for Resource-Constrained.pdf;/home/stephen/Zotero/storage/HYBHWENC/2404.html},
+  keywords = {ComputerScience-ComputerVisionAndPatternRecognition,ComputerScience-MachineLearning}
+}
+
 @incollection{liuStreamProcessingIoT2016,
   title = {Stream Processing in {{IoT}}: Foundations, State-of-the-Art, and Future Directions},
   shorttitle = {Stream Processing in {{IoT}}},
@@ -917,7 +1218,7 @@
   author = {Liu, X. and Dastjerdi, A.V. and Buyya, R.},
   year = {2016},
   pages = {145--161},
-  publisher = {{Elsevier}},
+  publisher = {Elsevier},
   doi = {10.1016/B978-0-12-805395-9.00008-3},
   urldate = {2024-03-07},
   isbn = {978-0-12-805395-9},
@@ -931,7 +1232,7 @@
   author = {Liu, X. and Dastjerdi, A.V. and Buyya, R.},
   year = {2016},
   pages = {145--161},
-  publisher = {{Elsevier}},
+  publisher = {Elsevier},
   doi = {10.1016/B978-0-12-805395-9.00008-3},
   urldate = {2024-03-07},
   isbn = {978-0-12-805395-9},
@@ -945,11 +1246,12 @@
   author = {Liu, X. and Dastjerdi, A.V. and Buyya, R.},
   year = {2016},
   pages = {145--161},
-  publisher = {{Elsevier}},
+  publisher = {Elsevier},
   doi = {10.1016/B978-0-12-805395-9.00008-3},
   urldate = {2024-04-01},
   isbn = {978-0-12-805395-9},
-  langid = {english}
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/VPQ93GWG/Liu et al. - 2016 - Stream processing in IoT foundations, state-of-th.pdf}
 }
 
 @misc{londondatastoreCycleHireAvailability2023,
@@ -994,7 +1296,8 @@
   issn = {1932-4529},
   doi = {10.1109/MIE.2016.2615575},
   urldate = {2024-04-02},
-  annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.016Z}
+  annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.016Z},
+  file = {/home/stephen/Zotero/storage/8RXJZA46/Manic et al. - 2016 - Intelligent Buildings of the Future Cyberaware, D.pdf}
 }
 
 @article{Marino2016BuildingEL,
@@ -1012,10 +1315,29 @@
   year = {2012},
   series = {Robert {{C}}. {{Martin}} Series},
   edition = {Repr.},
-  publisher = {{Prentice Hall}},
-  address = {{Upper Saddle River, NJ Munich}},
+  publisher = {Prentice Hall},
+  address = {Upper Saddle River, NJ Munich},
   isbn = {978-0-13-235088-4},
   langid = {english}
+}
+
+@article{merendaEdgeMachineLearning2020,
+  title = {Edge {{Machine Learning}} for {{AI-Enabled IoT Devices}}: {{A Review}}},
+  shorttitle = {Edge {{Machine Learning}} for {{AI-Enabled IoT Devices}}},
+  author = {Merenda, Massimo and Porcaro, Carlo and Iero, Demetrio},
+  year = {2020},
+  month = apr,
+  journal = {Sensors},
+  volume = {20},
+  number = {9},
+  pages = {2533},
+  issn = {1424-8220},
+  doi = {10.3390/s20092533},
+  urldate = {2024-04-12},
+  abstract = {In a few years, the world will be populated by billions of connected devices that will be placed in our homes, cities, vehicles, and industries. Devices with limited resources will interact with the surrounding environment and users. Many of these devices will be based on machine learning models to decode meaning and behavior behind sensors' data, to implement accurate predictions and make decisions. The bottleneck will be the high level of connected things that could congest the network. Hence, the need to incorporate intelligence on end devices using machine learning algorithms. Deploying machine learning on such edge devices improves the network congestion by allowing computations to be performed close to the data sources. The aim of this work is to provide a review of the main techniques that guarantee the execution of machine learning models on hardware with low performances in the Internet of Things paradigm, paving the way to the Internet of Conscious Things. In this work, a detailed review on models, architecture, and requirements on solutions that implement edge machine learning on Internet of Things devices is presented, with the main goal to define the state of the art and envisioning development requirements. Furthermore, an example of edge machine learning implementation on a microcontroller will be provided, commonly regarded as the machine learning ``Hello World''.},
+  copyright = {https://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/home/stephen/Zotero/storage/XQTSS5YN/Merenda et al. - 2020 - Edge Machine Learning for AI-Enabled IoT Devices .pdf}
 }
 
 @misc{meteireannHistoricalWeatherData2023,
@@ -1033,8 +1355,8 @@
   year = {2017},
   month = dec,
   pages = {25--32},
-  publisher = {{IEEE}},
-  address = {{Hong Kong}},
+  publisher = {IEEE},
+  address = {Hong Kong},
   doi = {10.1109/CloudCom.2017.35},
   urldate = {2024-03-07},
   isbn = {978-1-5386-0692-6},
@@ -1048,6 +1370,37 @@
   howpublished = {UCI Machine Learning Repository}
 }
 
+@misc{mishraSurveyDeepNeural2020,
+  title = {A {{Survey}} on {{Deep Neural Network Compression}}: {{Challenges}}, {{Overview}}, and {{Solutions}}},
+  shorttitle = {A {{Survey}} on {{Deep Neural Network Compression}}},
+  author = {Mishra, Rahul and Gupta, Hari Prabhat and Dutta, Tanima},
+  year = {2020},
+  month = oct,
+  number = {arXiv:2010.03954},
+  eprint = {2010.03954},
+  primaryclass = {cs, eess},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {Deep Neural Network (DNN) has gained unprecedented performance due to its automated feature extraction capability. This high order performance leads to significant incorporation of DNN models in different Internet of Things (IoT) applications in the past decade. However, the colossal requirement of computation, energy, and storage of DNN models make their deployment prohibitive on resource constraint IoT devices. Therefore, several compression techniques were proposed in recent years for reducing the storage and computation requirements of the DNN model. These techniques on DNN compression have utilized a different perspective for compressing DNN with minimal accuracy compromise. It encourages us to make a comprehensive overview of the DNN compression techniques. In this paper, we present a comprehensive review of existing literature on compressing DNN model that reduces both storage and computation requirements. We divide the existing approaches into five broad categories, i.e., network pruning, sparse representation, bits precision, knowledge distillation, and miscellaneous, based upon the mechanism incorporated for compressing the DNN model. The paper also discussed the challenges associated with each category of DNN compression techniques. Finally, we provide a quick summary of existing work under each category with the future direction in DNN compression.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/UUPNVPHL/Mishra et al. - 2020 - A Survey on Deep Neural Network Compression Chall.pdf;/home/stephen/Zotero/storage/8F3ME3VZ/2010.html},
+  keywords = {ComputerScience-MachineLearning,ComputerScience-NetworkingAndInternetArchitecture,ElectricalEngineeringAndSystemsScience-SignalProcessing}
+}
+
+@article{mocanuDeepLearningEstimating2016,
+  title = {Deep Learning for Estimating Building Energy Consumption},
+  author = {Mocanu, Elena and Nguyen, Phuong H. and Gibescu, Madeleine and Kling, Wil L.},
+  year = {2016},
+  month = jun,
+  journal = {Sustainable Energy, Grids and Networks},
+  volume = {6},
+  pages = {91--99},
+  issn = {23524677},
+  doi = {10.1016/j.segan.2016.02.005},
+  urldate = {2024-04-05},
+  langid = {english}
+}
+
 @misc{mohammadiDeepLearningIoT2018,
   title = {Deep {{Learning}} for {{IoT Big Data}} and {{Streaming Analytics}}: {{A Survey}}},
   shorttitle = {Deep {{Learning}} for {{IoT Big Data}} and {{Streaming Analytics}}},
@@ -1057,12 +1410,12 @@
   number = {arXiv:1712.04301},
   eprint = {1712.04301},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2024-03-05},
   abstract = {In the era of the Internet of Things (IoT), an enormous amount of sensing devices collect and/or generate various sensory data over time for a wide range of fields and applications. Based on the nature of the application, these devices will result in big or fast/real-time data streams. Applying analytics over such data streams to discover new information, predict future insights, and make control decisions is a crucial process that makes IoT a worthy paradigm for businesses and a quality-of-life improving technology. In this paper, we provide a thorough overview on using a class of advanced machine learning techniques, namely Deep Learning (DL), to facilitate the analytics and learning in the IoT domain. We start by articulating IoT data characteristics and identifying two major treatments for IoT data from a machine learning perspective, namely IoT big data analytics and IoT streaming data analytics. We also discuss why DL is a promising approach to achieve the desired analytics in these types of data and applications. The potential of using emerging DL techniques for IoT data analytics are then discussed, and its promises and challenges are introduced. We present a comprehensive background on different DL architectures and algorithms. We also analyze and summarize major reported research attempts that leveraged DL in the IoT domain. The smart IoT devices that have incorporated DL in their intelligence background are also discussed. DL implementation approaches on the fog and cloud centers in support of IoT applications are also surveyed. Finally, we shed light on some challenges and potential directions for future research. At the end of each section, we highlight the lessons learned based on our experiments and review of the recent literature.},
   archiveprefix = {arxiv},
   annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.013Z},
-  file = {/home/stephen/Zotero/storage/YX2QQ3DN/Mohammadi et al. - 2018 - Deep Learning for IoT Big Data and Streaming Analy.pdf;/home/stephen/Zotero/storage/6T53WNMS/1712.html},
+  file = {/home/stephen/Zotero/storage/QRWGSD38/1712.04301.pdf;/home/stephen/Zotero/storage/YX2QQ3DN/Mohammadi et al. - 2018 - Deep Learning for IoT Big Data and Streaming Analy.pdf;/home/stephen/Zotero/storage/6T53WNMS/1712.html},
   keywords = {ComputerScience-Databases,ComputerScience-MachineLearning,ComputerScience-NetworkingAndInternetArchitecture}
 }
 
@@ -1070,7 +1423,7 @@
   title = {Comparison of Different {{Methods}} for {{Univariate Time Series Imputation}} in {{R}}},
   author = {Moritz, Steffen and Sard{\'a}, Alexis and {Bartz-Beielstein}, Thomas and Zaefferer, Martin and Stork, J{\"o}rg},
   year = {2015},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   doi = {10.48550/ARXIV.1510.03924},
   urldate = {2023-10-09},
   abstract = {Missing values in datasets are a well-known problem and there are quite a lot of R packages offering imputation functions. But while imputation in general is well covered within R, it is hard to find functions for imputation of univariate time series. The problem is, most standard imputation techniques can not be applied directly. Most algorithms rely on inter-attribute correlations, while univariate time series imputation needs to employ time dependencies. This paper provides an overview of univariate time series imputation in general and an in-detail insight into the respective implementations within R packages. Furthermore, we experimentally compare the R functions on different time series using four different ratios of missing data. Our results show that either an interpolation with seasonal kalman filter from the zoo package or a linear interpolation on seasonal loess decomposed data from the forecast package were the most effective methods for dealing with missing data in most of the scenarios assessed in this paper.},
@@ -1086,7 +1439,7 @@
   number = {arXiv:1510.03924},
   eprint = {1510.03924},
   primaryclass = {cs, stat},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2023-10-09},
   abstract = {Missing values in datasets are a well-known problem and there are quite a lot of R packages offering imputation functions. But while imputation in general is well covered within R, it is hard to find functions for imputation of univariate time series. The problem is, most standard imputation techniques can not be applied directly. Most algorithms rely on inter-attribute correlations, while univariate time series imputation needs to employ time dependencies. This paper provides an overview of univariate time series imputation in general and an in-detail insight into the respective implementations within R packages. Furthermore, we experimentally compare the R functions on different time series using four different ratios of missing data. Our results show that either an interpolation with seasonal kalman filter from the zoo package or a linear interpolation on seasonal loess decomposed data from the forecast package were the most effective methods for dealing with missing data in most of the scenarios assessed in this paper.},
   archiveprefix = {arxiv},
@@ -1102,7 +1455,7 @@
   number = {arXiv:1510.03924},
   eprint = {1510.03924},
   primaryclass = {cs, stat},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2023-10-09},
   abstract = {Missing values in datasets are a well-known problem and there are quite a lot of R packages offering imputation functions. But while imputation in general is well covered within R, it is hard to find functions for imputation of univariate time series. The problem is, most standard imputation techniques can not be applied directly. Most algorithms rely on inter-attribute correlations, while univariate time series imputation needs to employ time dependencies. This paper provides an overview of univariate time series imputation in general and an in-detail insight into the respective implementations within R packages. Furthermore, we experimentally compare the R functions on different time series using four different ratios of missing data. Our results show that either an interpolation with seasonal kalman filter from the zoo package or a linear interpolation on seasonal loess decomposed data from the forecast package were the most effective methods for dealing with missing data in most of the scenarios assessed in this paper.},
   archiveprefix = {arxiv},
@@ -1118,7 +1471,7 @@
   number = {arXiv:1510.03924},
   eprint = {1510.03924},
   primaryclass = {cs, stat},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   urldate = {2023-10-09},
   abstract = {Missing values in datasets are a well-known problem and there are quite a lot of R packages offering imputation functions. But while imputation in general is well covered within R, it is hard to find functions for imputation of univariate time series. The problem is, most standard imputation techniques can not be applied directly. Most algorithms rely on inter-attribute correlations, while univariate time series imputation needs to employ time dependencies. This paper provides an overview of univariate time series imputation in general and an in-detail insight into the respective implementations within R packages. Furthermore, we experimentally compare the R functions on different time series using four different ratios of missing data. Our results show that either an interpolation with seasonal kalman filter from the zoo package or a linear interpolation on seasonal loess decomposed data from the forecast package were the most effective methods for dealing with missing data in most of the scenarios assessed in this paper.},
   archiveprefix = {arxiv},
@@ -1132,8 +1485,8 @@
   author = {M{\"u}ller, Andreas Christian and Guido, Sarah},
   year = {2016},
   edition = {First edition},
-  publisher = {{O'Reilly}},
-  address = {{Beijing Boston Farnham Sebastopol Tokyo}},
+  publisher = {O'Reilly},
+  address = {Beijing Boston Farnham Sebastopol Tokyo},
   isbn = {978-1-4493-6941-5},
   langid = {english},
   file = {/home/stephen/Zotero/storage/98A6U5V3/Andreas C. Müller, Sarah Guido - Introduction to Machine Learning with Python_ A Guide for Data Scientists-O’Reilly Media (2016).pdf;/home/stephen/Zotero/storage/NU8ELT6M/Müller and Guido - 2016 - Introduction to machine learning with Python a gu.pdf}
@@ -1147,8 +1500,8 @@
   year = {2018},
   volume = {11118},
   pages = {41--51},
-  publisher = {{Springer International Publishing}},
-  address = {{Cham}},
+  publisher = {Springer International Publishing},
+  address = {Cham},
   doi = {10.1007/978-3-030-01168-0_5},
   urldate = {2024-03-07},
   isbn = {978-3-030-01167-3 978-3-030-01168-0}
@@ -1161,11 +1514,77 @@
   year = {2021},
   month = sep,
   pages = {1--6},
-  publisher = {{IEEE}},
-  address = {{Bari, Italy}},
+  publisher = {IEEE},
+  address = {Bari, Italy},
   doi = {10.1109/EEEIC/ICPSEurope51590.2021.9584756},
   urldate = {2024-04-01},
-  isbn = {978-1-66543-613-7}
+  isbn = {978-1-66543-613-7},
+  file = {/home/stephen/Zotero/storage/KQW52T8D/Nammouchi et al. - 2021 - Integration of AI, IoT and Edge-Computing for Smar.pdf}
+}
+
+@misc{neillCompressingDeepNeural2020,
+  title = {Compressing {{Deep Neural Networks}} via {{Layer Fusion}}},
+  author = {Neill, James O' and Steeg, Greg Ver and Galstyan, Aram},
+  year = {2020},
+  month = jul,
+  number = {arXiv:2007.14917},
+  eprint = {2007.14917},
+  primaryclass = {cs, stat},
+  publisher = {arXiv},
+  urldate = {2024-04-12},
+  abstract = {This paper proposes {\textbackslash}textit\{layer fusion\} - a model compression technique that discovers which weights to combine and then fuses weights of similar fully-connected, convolutional and attention layers. Layer fusion can significantly reduce the number of layers of the original network with little additional computation overhead, while maintaining competitive performance. From experiments on CIFAR-10, we find that various deep convolution neural networks can remain within 2{\textbackslash}\% accuracy points of the original networks up to a compression ratio of 3.33 when iteratively retrained with layer fusion. For experiments on the WikiText-2 language modelling dataset where pretrained transformer models are used, we achieve compression that leads to a network that is 20{\textbackslash}\% of its original size while being within 5 perplexity points of the original network. We also find that other well-established compression techniques can achieve competitive performance when compared to their original networks given a sufficient number of retraining steps. Generally, we observe a clear inflection point in performance as the amount of compression increases, suggesting a bound on the amount of compression that can be achieved before an exponential degradation in performance.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/LQANWHVG/Neill et al. - 2020 - Compressing Deep Neural Networks via Layer Fusion.pdf;/home/stephen/Zotero/storage/LVTCSHLX/2007.html},
+  keywords = {ComputerScience-MachineLearning,Statistics-MachineLearning}
+}
+
+@misc{neillDeepNeuralCompression2021,
+  title = {Deep {{Neural Compression Via Concurrent Pruning}} and {{Self-Distillation}}},
+  author = {Neill, James O' and Dutta, Sourav and Assem, Haytham},
+  year = {2021},
+  month = sep,
+  number = {arXiv:2109.15014},
+  eprint = {2109.15014},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  urldate = {2024-04-12},
+  abstract = {Pruning aims to reduce the number of parameters while maintaining performance close to the original network. This work proposes a novel {\textbackslash}emph\{self-distillation\} based pruning strategy, whereby the representational similarity between the pruned and unpruned versions of the same network is maximized. Unlike previous approaches that treat distillation and pruning separately, we use distillation to inform the pruning criteria, without requiring a separate student network as in knowledge distillation. We show that the proposed \{{\textbackslash}em cross-correlation objective for self-distilled pruning\} implicitly encourages sparse solutions, naturally complementing magnitude-based pruning criteria. Experiments on the GLUE and XGLUE benchmarks show that self-distilled pruning increases mono- and cross-lingual language model performance. Self-distilled pruned models also outperform smaller Transformers with an equal number of parameters and are competitive against (6 times) larger distilled networks. We also observe that self-distillation (1) maximizes class separability, (2) increases the signal-to-noise ratio, and (3) converges faster after pruning steps, providing further insights into why self-distilled pruning improves generalization.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/NK6ZYY4V/Neill et al. - 2021 - Deep Neural Compression Via Concurrent Pruning and.pdf;/home/stephen/Zotero/storage/IKMU93XC/2109.html},
+  keywords = {ComputerScience-ComputationAndLanguage,ComputerScience-MachineLearning}
+}
+
+@misc{neillOverviewNeuralNetwork2020,
+  title = {An {{Overview}} of {{Neural Network Compression}}},
+  author = {Neill, James O'},
+  year = {2020},
+  month = aug,
+  number = {arXiv:2006.03669},
+  eprint = {2006.03669},
+  primaryclass = {cs, stat},
+  publisher = {arXiv},
+  urldate = {2024-04-12},
+  abstract = {Overparameterized networks trained to convergence have shown impressive performance in domains such as computer vision and natural language processing. Pushing state of the art on salient tasks within these domains corresponds to these models becoming larger and more difficult for machine learning practitioners to use given the increasing memory and storage requirements, not to mention the larger carbon footprint. Thus, in recent years there has been a resurgence in model compression techniques, particularly for deep convolutional neural networks and self-attention based networks such as the Transformer. Hence, this paper provides a timely overview of both old and current compression techniques for deep neural networks, including pruning, quantization, tensor decomposition, knowledge distillation and combinations thereof. We assume a basic familiarity with deep learning architectures{\textbackslash}footnote\{For an introduction to deep learning, see {\textasciitilde}{\textbackslash}citet\{goodfellow2016deep\}\}, namely, Recurrent Neural Networks{\textasciitilde}{\textbackslash}citep[(RNNs)][]\{rumelhart1985learning,hochreiter1997long\}, Convolutional Neural Networks{\textasciitilde}{\textbackslash}citep\{fukushima1980neocognitron\}{\textasciitilde}{\textbackslash}footnote\{For an up to date overview see{\textasciitilde}{\textbackslash}citet\{khan2019survey\}\} and Self-Attention based networks{\textasciitilde}{\textbackslash}citep\{vaswani2017attention\}{\textbackslash}footnote\{For a general overview of self-attention networks, see {\textasciitilde}{\textbackslash}citet\{chaudhari2019attentive\}.\},{\textbackslash}footnote\{For more detail and their use in natural language processing, see{\textasciitilde}{\textbackslash}citet\{hu2019introductory\}\}. Most of the papers discussed are proposed in the context of at least one of these DNN architectures.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/SGIATKPW/Neill - 2020 - An Overview of Neural Network Compression.pdf;/home/stephen/Zotero/storage/PRQVBNJE/2006.html},
+  keywords = {ComputerScience-MachineLearning,Statistics-MachineLearning}
+}
+
+@misc{neillSelfDistilledQuantizationAchieving2023,
+  title = {Self-{{Distilled Quantization}}: {{Achieving High Compression Rates}} in {{Transformer-Based Language Models}}},
+  shorttitle = {Self-{{Distilled Quantization}}},
+  author = {Neill, James O' and Dutta, Sourav},
+  year = {2023},
+  month = jul,
+  number = {arXiv:2307.05972},
+  eprint = {2307.05972},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  urldate = {2024-04-12},
+  abstract = {We investigate the effects of post-training quantization and quantization-aware training on the generalization of Transformer language models. We present a new method called self-distilled quantization (SDQ) that minimizes accumulative quantization errors and outperforms baselines. We apply SDQ to multilingual models XLM-R-Base and InfoXLM-Base and demonstrate that both models can be reduced from 32-bit floating point weights to 8-bit integer weights while maintaining a high level of performance on the XGLUE benchmark. Our results also highlight the challenges of quantizing multilingual models, which must generalize to languages they were not fine-tuned on.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/VJ577MRI/Neill and Dutta - 2023 - Self-Distilled Quantization Achieving High Compre.pdf;/home/stephen/Zotero/storage/ERBLKR9G/2307.html},
+  keywords = {ComputerScience-ComputationAndLanguage,ComputerScience-MachineLearning}
 }
 
 @misc{nicholColoringColorblindness,
@@ -1218,7 +1637,8 @@
   doi = {10.3934/electreng.2023004},
   urldate = {2024-04-01},
   abstract = {{$<$}abstract{$>$} {$<$}p{$>$}Internet of Things (IoT) is a terminology used for a mixed connection of heterogeneous objects to the internet and to each other with the employment of recent technological and communication infrastructures. Its incorporation into engineering systems have gradually become very popular in recent times as it promises to transform and ease the life of end users. The use of IoT in smart energy systems (SES) facilitates an ample offer of variety of applications that transverses through a wide range of areas in energy systems. With the numerous benefits that includes unmatched fast communication between subsystems, the maximization of energy use, the decrease in environmental impacts and a boost in the dividends of renewable energies, IoT has grown into an emerging innovative technology to be integrated into smart energy systems. In this work, we have provided an overview of the link between SES, IoT and Internet of Energy (IoE). The main applications of IoT in smart energy systems consisting of smart industries, smart homes and buildings, and smart cities are explored and analyzed. The paper also explores the challenges limiting the employment of IoT technologies in SES and the possible remedies to these challenges. In addition, the future trends of this technology, its research direction and reasons why industry should adopt it are also addressed. The aim of this work is to furnish researchers in this field, decision and energy policy makers, energy economist and energy administrators with a possible literature outline on the roles and impacts of IoT technology in smart energy systems.{$<$}/p{$>$} {$<$}/abstract{$>$}},
-  annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.012Z}
+  annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.012Z},
+  file = {/home/stephen/Zotero/storage/TM466KDA/Orumwense and Abo-Al-Ez - 2022 - Internet of Things for smart energy systems A rev.pdf}
 }
 
 @incollection{panRepeatedCrossSectionalDesign2019,
@@ -1228,8 +1648,8 @@
   editor = {Gu, Danan and Dupre, Matthew E.},
   year = {2019},
   pages = {1--5},
-  publisher = {{Springer International Publishing}},
-  address = {{Cham}},
+  publisher = {Springer International Publishing},
+  address = {Cham},
   doi = {10.1007/978-3-319-69892-2_578-1},
   urldate = {2023-10-09},
   isbn = {978-3-319-69892-2},
@@ -1244,8 +1664,8 @@
   year = {2021},
   month = jun,
   pages = {2271--2280},
-  publisher = {{ACM}},
-  address = {{Virtual Event China}},
+  publisher = {ACM},
+  address = {Virtual Event China},
   doi = {10.1145/3448016.3457330},
   urldate = {2023-09-20},
   isbn = {978-1-4503-8343-1},
@@ -1262,8 +1682,8 @@
   year = {2019},
   month = jul,
   pages = {66--71},
-  publisher = {{IEEE}},
-  address = {{Zagreb, Croatia}},
+  publisher = {IEEE},
+  address = {Zagreb, Croatia},
   doi = {10.1109/ICUFN.2019.8806026},
   urldate = {2024-03-08},
   isbn = {978-1-72811-340-1}
@@ -1300,7 +1720,38 @@
   doi = {10.1016/j.procs.2019.12.120},
   urldate = {2024-04-01},
   langid = {english},
-  annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.015Z}
+  annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.015Z},
+  file = {/home/stephen/Zotero/storage/6FE3MSTJ/Saleem and Chishti - 2019 - Deep Learning for Internet of Things Data Analytic.pdf}
+}
+
+@inproceedings{sehovacForecastingBuildingEnergy2019,
+  title = {Forecasting {{Building Energy Consumption}} with {{Deep Learning}}: {{A Sequence}} to {{Sequence Approach}}},
+  shorttitle = {Forecasting {{Building Energy Consumption}} with {{Deep Learning}}},
+  booktitle = {2019 {{IEEE International Congress}} on {{Internet}} of {{Things}} ({{ICIOT}})},
+  author = {Sehovac, Ljubisa and Nesen, Cornelius and Grolinger, Katarina},
+  year = {2019},
+  month = jul,
+  pages = {108--116},
+  publisher = {IEEE},
+  address = {Milan, Italy},
+  doi = {10.1109/ICIOT.2019.00029},
+  urldate = {2024-04-05},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  isbn = {978-1-72812-714-9},
+  file = {/home/stephen/Zotero/storage/294KWXZB/Sehovac et al. - 2019 - Forecasting Building Energy Consumption with Deep .pdf}
+}
+
+@article{songDeepBeliefNetwork2018,
+  title = {A {{Deep Belief Network}} for {{Electricity Utilisation Feature Analysis}} of {{Air Conditioners Using}} a {{Smart IoT Platform}}},
+  author = {Song, Wei and Feng, Ning and Tian, Yifei and Fong, Simon and Cho, Kyungeun},
+  year = {2018},
+  month = feb,
+  journal = {Journal of Information Processing Systems},
+  volume = {14},
+  number = {1},
+  pages = {162--175},
+  doi = {10.3745/JIPS.04.0056},
+  urldate = {2024-04-05}
 }
 
 @article{sushkovaStatisticalMethodExploratory2021,
@@ -1328,8 +1779,8 @@
   year = {2017},
   month = may,
   pages = {1509--1524},
-  publisher = {{ACM}},
-  address = {{Chicago Illinois USA}},
+  publisher = {ACM},
+  address = {Chicago Illinois USA},
   doi = {10.1145/3035918.3035922},
   urldate = {2023-09-22},
   isbn = {978-1-4503-4197-4},
@@ -1342,8 +1793,8 @@
   title = {Approaching ({{Almost}}) {{Any Machine Learning Problem}}},
   author = {THAKUR, {\relax ABHISHEK}},
   year = {2020},
-  publisher = {{ABHISHEK THAKUR}},
-  address = {{S.l.}},
+  publisher = {ABHISHEK THAKUR},
+  address = {S.l.},
   isbn = {978-93-90274-43-7},
   langid = {english},
   annotation = {OCLC: 1368347003},
@@ -1357,8 +1808,8 @@
   year = {2019},
   month = oct,
   pages = {418--423},
-  publisher = {{IEEE}},
-  address = {{Greater Noida, India}},
+  publisher = {IEEE},
+  address = {Greater Noida, India},
   doi = {10.1109/ICCCIS48478.2019.8974481},
   urldate = {2024-03-05},
   isbn = {978-1-72814-826-7}
@@ -1370,8 +1821,8 @@
   author = {Vohra, Deepak},
   year = {2016},
   pages = {325--335},
-  publisher = {{Apress}},
-  address = {{Berkeley, CA}},
+  publisher = {Apress},
+  address = {Berkeley, CA},
   doi = {10.1007/978-1-4842-2199-0_8},
   urldate = {2024-01-05},
   collaborator = {Vohra, Deepak},
@@ -1400,8 +1851,8 @@
   author = {Weiss, Neil A.},
   year = {2017},
   edition = {10th edition, global edition},
-  publisher = {{Pearson}},
-  address = {{Boston; Columbus; Indianapolis New York}},
+  publisher = {Pearson},
+  address = {Boston; Columbus; Indianapolis New York},
   collaborator = {Weiss, Carol A.},
   isbn = {978-1-292-09972-9},
   langid = {english},
@@ -1429,6 +1880,22 @@
   year = {2000}
 }
 
+@inproceedings{xuDesignPrototypingNeural2019,
+  title = {Design and {{Prototyping}} of {{Neural Network Compression}} for {{Non-Orthogonal IoT Signals}}},
+  booktitle = {2019 {{IEEE Wireless Communications}} and {{Networking Conference}} ({{WCNC}})},
+  author = {Xu, Tongyang and Darwazeh, Izzat},
+  year = {2019},
+  month = apr,
+  pages = {1--6},
+  publisher = {IEEE},
+  address = {Marrakesh, Morocco},
+  doi = {10.1109/WCNC.2019.8885830},
+  urldate = {2024-04-15},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+  isbn = {978-1-5386-7646-2},
+  file = {/home/stephen/Zotero/storage/2IJKUVWL/Xu and Darwazeh - 2019 - Design and Prototyping of Neural Network Compressi.pdf}
+}
+
 @article{yakoutGuidedDataRepair2011,
   title = {Guided Data Repair},
   author = {Yakout, Mohamed and Elmagarmid, Ahmed K. and Neville, Jennifer and Ouzzani, Mourad and Ilyas, Ihab F.},
@@ -1444,6 +1911,22 @@
   abstract = {In this paper we present GDR, a Guided Data Repair framework that incorporates user feedback in the cleaning process to enhance and accelerate existing automatic repair techniques while minimizing user involvement. GDR consults the user on the updates that are most likely to be beneficial in improving data quality. GDR also uses machine learning methods to identify and apply the correct updates directly to the database without the actual involvement of the user on these specific updates. To rank potential updates for consultation by the user, we first group these repairs and quantify the utility of each group using the decision-theory concept of value of information (VOI). We then apply active learning to order updates within a group based on their ability to improve the learned model. User feedback is used to repair the database and to adaptively refine the training set for the model. We empirically evaluate GDR on a real-world dataset and show significant improvement in data quality using our user guided repairing process. We also, assess the trade-off between the user efforts and the resulting data quality.},
   langid = {english},
   file = {/home/stephen/Zotero/storage/RUH7C79W/Yakout et al. - 2011 - Guided data repair.pdf}
+}
+
+@misc{yangIntroductionNeuralData2023,
+  title = {An {{Introduction}} to {{Neural Data Compression}}},
+  author = {Yang, Yibo and Mandt, Stephan and Theis, Lucas},
+  year = {2023},
+  month = aug,
+  number = {arXiv:2202.06533},
+  eprint = {2202.06533},
+  primaryclass = {cs, eess, math},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {Neural compression is the application of neural networks and other machine learning methods to data compression. Recent advances in statistical machine learning have opened up new possibilities for data compression, allowing compression algorithms to be learned end-to-end from data using powerful generative models such as normalizing flows, variational autoencoders, diffusion probabilistic models, and generative adversarial networks. The present article aims to introduce this field of research to a broader machine learning audience by reviewing the necessary background in information theory (e.g., entropy coding, rate-distortion theory) and computer vision (e.g., image quality assessment, perceptual metrics), and providing a curated guide through the essential ideas and methods in the literature thus far.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/RU7QVXU5/Yang et al. - 2023 - An Introduction to Neural Data Compression.pdf;/home/stephen/Zotero/storage/LK2KUZCQ/2202.html},
+  keywords = {ComputerScience-InformationTheory,ComputerScience-MachineLearning,ElectricalEngineeringAndSystemsScience-ImageAndVideoProcessing}
 }
 
 @article{yangIoTStreamProcessing2017,
@@ -1465,12 +1948,13 @@
   title = {{{IoT Stream Processing}} and {{Analytics}} in {{The Fog}}},
   author = {Yang, Shusen},
   year = {2017},
-  publisher = {{[object Object]}},
+  publisher = {[object Object]},
   doi = {10.48550/ARXIV.1705.05988},
   urldate = {2024-04-01},
   abstract = {The emerging Fog paradigm has been attracting increasing interests from both academia and industry, due to the low-latency, resilient, and cost-effective services it can provide. Many Fog applications such as video mining and event monitoring, rely on data stream processing and analytics, which are very popular in the Cloud, but have not been comprehensively investigated in the context of Fog architecture. In this article, we present the general models and architecture of Fog data streaming, by analyzing the common properties of several typical applications. We also analyze the design space of Fog streaming with the consideration of four essential dimensions (system, data, human, and optimization), where both new design challenges and the issues arise from leveraging existing techniques are investigated, such as Cloud stream processing, computer networks, and mobile computing.},
   copyright = {arXiv.org perpetual, non-exclusive license},
   annotation = {Read\_Status: Read Read\_Status\_Date: 2024-04-02T10:07:27.011Z},
+  file = {/home/stephen/Zotero/storage/VPPRTS7J/Yang - 2017 - IoT Stream Processing and Analytics in The Fog.pdf},
   keywords = {FOS:ComputerAndInformationSciences,NetworkingAndInternetArchitecture(Cs.NI)}
 }
 
@@ -1481,8 +1965,8 @@
   year = {2020},
   month = jan,
   pages = {107--111},
-  publisher = {{ACM}},
-  address = {{Sanya China}},
+  publisher = {ACM},
+  address = {Sanya China},
   doi = {10.1145/3379247.3379270},
   urldate = {2023-09-20},
   isbn = {978-1-4503-7673-0},
@@ -1500,13 +1984,30 @@
   year = {2021},
   month = may,
   pages = {1--15},
-  publisher = {{ACM}},
-  address = {{Yokohama Japan}},
+  publisher = {ACM},
+  address = {Yokohama Japan},
   doi = {10.1145/3411764.3445728},
   urldate = {2023-09-22},
   isbn = {978-1-4503-8096-6},
   langid = {english},
   file = {/home/stephen/Zotero/storage/GLSVDPPB/Yan et al. - 2021 - Tessera Discretizing Data Analysis Workflows on a.pdf}
+}
+
+@misc{yaoDeepIoTCompressingDeep2017,
+  title = {{{DeepIoT}}: {{Compressing Deep Neural Network Structures}} for {{Sensing Systems}} with a {{Compressor-Critic Framework}}},
+  shorttitle = {{{DeepIoT}}},
+  author = {Yao, Shuochao and Zhao, Yiran and Zhang, Aston and Su, Lu and Abdelzaher, Tarek},
+  year = {2017},
+  month = nov,
+  number = {arXiv:1706.01215},
+  eprint = {1706.01215},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  urldate = {2024-04-15},
+  abstract = {Recent advances in deep learning motivate the use of deep neutral networks in sensing applications, but their excessive resource needs on constrained embedded devices remain an important impediment. A recently explored solution space lies in compressing (approximating or simplifying) deep neural networks in some manner before use on the device. We propose a new compression solution, called DeepIoT, that makes two key contributions in that space. First, unlike current solutions geared for compressing specific types of neural networks, DeepIoT presents a unified approach that compresses all commonly used deep learning structures for sensing applications, including fully-connected, convolutional, and recurrent neural networks, as well as their combinations. Second, unlike solutions that either sparsify weight matrices or assume linear structure within weight matrices, DeepIoT compresses neural network structures into smaller dense matrices by finding the minimum number of non-redundant hidden elements, such as filters and dimensions required by each layer, while keeping the performance of sensing applications the same. Importantly, it does so using an approach that obtains a global view of parameter redundancies, which is shown to produce superior compression. We conduct experiments with five different sensing-related tasks on Intel Edison devices. DeepIoT outperforms all compared baseline algorithms with respect to execution time and energy consumption by a significant margin. It reduces the size of deep neural networks by 90\% to 98.9\%. It is thus able to shorten execution time by 71.4\% to 94.5\%, and decrease energy consumption by 72.2\% to 95.7\%. These improvements are achieved without loss of accuracy. The results underscore the potential of DeepIoT for advancing the exploitation of deep neural networks on resource-constrained embedded devices.},
+  archiveprefix = {arxiv},
+  file = {/home/stephen/Zotero/storage/VGAREA8V/Yao et al. - 2017 - DeepIoT Compressing Deep Neural Network Structure.pdf;/home/stephen/Zotero/storage/5U92UVUT/1706.html},
+  keywords = {ComputerScience-MachineLearning,ComputerScience-NetworkingAndInternetArchitecture,ComputerScience-NeuralAndEvolutionaryComputing}
 }
 
 @article{yasumotoSurveyRealtimeProcessing2016,
@@ -1537,7 +2038,7 @@
   year = {2020},
   month = jan,
   edition = {2},
-  publisher = {{Cambridge University Press}},
+  publisher = {Cambridge University Press},
   doi = {10.1017/9781108564175},
   urldate = {2023-09-20},
   isbn = {978-1-108-56417-5 978-1-108-47398-9},
@@ -1568,7 +2069,7 @@
   title = {An {{Experimental Comparison}} of {{Old}} and {{New Decision Tree Algorithms}}},
   author = {Zharmagambetov, Arman and Hada, Suryabhan Singh and {Carreira-Perpi{\~n}{\'a}n}, Miguel {\'A}. and Gabidolla, Magzhan},
   year = {2019},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   doi = {10.48550/ARXIV.1911.03054},
   urldate = {2023-09-28},
   abstract = {This paper presents a detailed comparison of a recently proposed algorithm for optimizing decision trees, tree alternating optimization (TAO), with other popular, established algorithms. We compare their performance on a number of classification and regression datasets of various complexity, different size and dimensionality, across different performance factors: accuracy and tree size (in terms of the number of leaves or the depth of the tree). We find that TAO achieves higher accuracy in nearly all datasets, often by a large margin.},
